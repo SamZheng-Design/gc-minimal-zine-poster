@@ -1,0 +1,1268 @@
+{
+  "album": "GC Minimal Zine Poster — Album",
+  "skill": "gc-minimal-zine-poster-v0-1",
+  "mode": "Standard",
+  "output_spec": "vertical 3:5 paper poster, 1200x2150, nano-banana-pro",
+  "posters": [
+    {
+      "id": 1,
+      "file": "img/01-the-last-cicada.jpeg",
+      "title": "the last cicada",
+      "title_zh": "夏天最后的蝉声",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "object specimen",
+        "typography": "archive microtext with date/weather",
+        "accent": "saturated tomato-red",
+        "texture": "risograph grain",
+        "mood": "summer"
+      },
+      "accent_hex": "#E0442E",
+      "source": "theme",
+      "note": "把「夏天的结束」压缩成一枚标本卡上的蝉——不画夏天的场景，只留残骸与一行气温记录。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm-cream paper with visible organic fibers and faint mottling, flat orthographic scan, no border and no mockup. About 86% of the frame is plain empty paper; one single small visual cluster occupies roughly 12% of the canvas, placed in the lower-middle area, well away from all edges.\n\nThe cluster is a single pressed-insect specimen: one small cicada shown as a flat opaque printed silhouette, wings slightly spread, rendered like an old risograph specimen card. Its edges are soft with slight ink bleed and one-millimetre misregistration; a thin grayscale halftone shadow of the same shape sits a hair off-register behind it.\n\nTypography is small typewriter and monospace archive microtext in muted grey-black: a short readable phrase \"the last cicada\" set to the left of the specimen, tiny field-note lines \"Aug.29 / 14:07 / 33C dry\" above it, and a faint barely-legible column \"archive no. 029 / summer residue / specimen card\" at the lower right, degraded and partly faded. Exactly one high-chroma accent: the cicada silhouette itself is printed in fully saturated opaque tomato-red risograph ink, keeping its full saturation and density despite the grain, occupying about 2% of the canvas and roughly 25% of the small cluster, unmistakably visible at thumbnail size. Paper, microtext and halftone shadow stay subdued grey. Print defects: risograph grain, uneven ink distribution, slight roller streaks, paper fibers.\n\nQuiet, poetic, nostalgic late-summer diary mood, Japanese indie zine and minimal editorial feeling, matte absorbent paper, diffuse even light, low-to-medium contrast, no hard shadow, no depth. Avoid: full-bleed scene, commercial headline, product ad layout, logo, CTA, glossy mockup, clean white UI background, cinematic lighting, 3D render, neon, cute cartoon, anime, fashion editorial drama, dense scrapbook, many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 2,
+      "file": "img/02-still-open.jpeg",
+      "title": "still open",
+      "title_zh": "深夜便利店",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "solid color block + tiny faded photo",
+        "typography": "fragmented floating letters",
+        "accent": "saturated cyan",
+        "texture": "xerox softness + scan noise",
+        "mood": "night"
+      },
+      "accent_hex": "#12B5D8",
+      "source": "theme",
+      "note": "深夜便利店只用一块发光的窗户代替，人退成边缘一个剪影——「还开着」这件事本身就是全部内容。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool grey-white paper with fine flecks and scan noise, flat orthographic scanned-paper appearance, no border, no mockup. Roughly 85% of the frame reads as bare paper; a small cluster occupying about 11% of the canvas sits in the upper-right quadrant, with loose empty space and drifting text below it.\n\nThe cluster is a solid rectangular block standing for a convenience-store window seen from across an empty street at night, plus one tiny adjacent grayscale photo fragment of a wet pavement crop with a torn edge. The block is a flat opaque printed panel with a few thin dark horizontal shelf lines and one small dark human silhouette at its lower edge; the photo fragment is muted low-contrast grayscale with xerox softness and photocopy wear.\n\nTypography: fragmented floating monospace letters drift down the left side, a short serif phrase \"still open\" pressed against the lower edge of the block, and tiny microtext \"02:41 / no customers / light hums\" plus a faint \"- fragment x 004\" near the bottom-left, some letters blurred and misregistered. Exactly one high-chroma accent: the window block is printed in fully saturated vivid cyan screenprint ink, opaque and bright, retaining full chroma under the grain, covering about 2.2% of the canvas and around 30% of the cluster, clearly readable at thumbnail scale. Everything else stays paper tone, grey and black. Print defects: xerox softness, scan noise, paper fibers, slight edge bleed.\n\nQuiet, solitary, memory-like small-hours mood, Korean indie zine and minimal editorial restraint, matte paper, diffuse light, low contrast, no hard shadow, no 3D depth. Avoid: full-bleed night scene, cinematic lighting, neon glow, cyberpunk, commercial poster hierarchy, brand logo, CTA, glossy mockup, clean digital UI, 3D render, cute cartoon, anime, dense scrapbook, too many colors, long clean text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 3,
+      "file": "img/03-one-marble-left.jpeg",
+      "title": "one marble left",
+      "title_zh": "童年的一颗弹珠",
+      "recipe": {
+        "layout": "dot-orbit",
+        "anchor": "object specimen",
+        "typography": "diagonal scattered words + ghost microtext",
+        "accent": "saturated magenta-pink",
+        "texture": "halftone degradation + aged mottling",
+        "mood": "childhood"
+      },
+      "accent_hex": "#D6237E",
+      "source": "theme",
+      "note": "用「只剩一颗弹珠」承载童年——环绕的点和字母像一场早已结束的游戏留下的轨迹图。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged ivory paper with heavy organic mottling and foxing specks, flat orthographic scan, no border, no mockup. About 88% is empty paper; a single small subject with a loose orbit of marks occupies roughly 9% of the canvas, positioned just above the vertical centre and slightly left.\n\nThe subject is one isolated glass marble shown as a small round printed specimen, flat and graphic rather than photographic, with a soft halftone-degraded interior swirl and a slightly torn paper ring around it. A thin hairline circle and a scatter of small dots and single letters orbit it at an uneven distance, like a diagram of a game long finished.\n\nTypography: diagonal scattered words in small serif and typewriter type - \"one / marble / left\" drifting on a slight angle, a tiny caption \"fig. 07 - pocket contents\" beneath the marble, and almost-illegible grey ghost microtext \"summer 1997 / gravel yard / lost the rest\" at the lower right, coarse and half-dissolved by the halftone screen. Exactly one high-chroma accent: the marble itself is fully saturated opaque magenta-pink letterpress ink, dense and vivid, its saturation preserved through the halftone and ink bleed, occupying about 1.6% of the canvas and roughly 30% of the visual cluster, plainly visible as a thumbnail. Paper, dots, hairline and all text remain muted grey. Print defects: coarse halftone degradation, aged paper mottling, letterpress ink bleed, slight misregistration.\n\nQuiet, nostalgic childhood-memory mood with a trace of surreal stillness, Japanese/Korean minimal zine archival feeling, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D. Avoid: full-bleed illustration, whole illustrated scene, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D render, neon, cute kawaii cartoon, anime, fashion editorial drama, dense scrapbook collage, many colors, long readable paragraphs.",
+      "series": "singles"
+    },
+    {
+      "id": 4,
+      "file": "img/04-someone-wired-the-sky.jpeg",
+      "title": "someone wired the sky",
+      "title_zh": "有人给天空接上了电线",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "torn-paper clipping",
+        "typography": "short phrase pressed against image edge",
+        "accent": "saturated ultramarine",
+        "texture": "risograph grain + misregistration",
+        "mood": "night"
+      },
+      "accent_hex": "#2438A8",
+      "source": "photo — 圣诞树仰拍，灯串从顶端星星呈放射状散开",
+      "note": "把照片里「灯串从星星放射出去」的结构，翻译成一块撕边的夜空剪纸 + 铅笔灰的放射细线。几千颗灯泡被压缩成剪纸上的针孔。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool grey-white paper with visible fibers, foxing specks and faint mottling, flat orthographic scan, no border, no mockup. Roughly 84% of the frame is bare empty paper; one small visual cluster occupies about 14% of the canvas, sitting slightly above the vertical centre, clear of all edges.\n\nThe cluster is an irregular torn-edge paper cutout shaped like a rough fragment of night sky, printed as a flat opaque panel and speckled with dozens of tiny unprinted pinprick dots like distant bulbs. At its lower edge sits one very small dark conical evergreen tree tip in grayscale halftone, and a single tiny white star mark at the exact point where a fan of extremely thin hairlines radiates outward across the surrounding bare paper, drawn in faint pencil-grey, thinning to nothing before the edges. Torn fibrous cutout edge, slight ink bleed, one-millimetre misregistration on the halftone tree.\n\nTypography: small serif phrase \"someone wired the sky\" set just left of the cutout, pressed close to its torn edge; tiny typewriter field notes \"Dec.24 / 21:50 / -2C clear\" above it; a faint half-legible column \"archive no. 041 / plaza, looking up / printed matter\" at the lower right, degraded and partly dissolved. Exactly one high-chroma accent: the torn sky cutout is printed in fully saturated opaque ultramarine risograph ink, dense and vivid, preserving full chroma through grain and bleed, covering about 2.4% of the canvas and roughly 30% of the cluster, unmistakable at thumbnail size. Paper, hairlines, halftone tree and all text stay muted grey-black. Print defects: risograph grain, uneven roller ink, paper fibers, slight misregistration.\n\nQuiet, poetic, distant winter-night memory mood, Japanese indie zine and minimal editorial restraint, matte absorbent paper, diffuse even light, low-to-medium contrast, no hard shadow, no depth. Avoid: festive Christmas card, holiday greeting layout, glitter, sparkle stars, lens bokeh, full-bleed night scene, cinematic lighting, neon glow, commercial headline, product ad, brand logo, CTA, glossy mockup, clean white UI, 3D render, cute cartoon, anime, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 5,
+      "file": "img/05-no-one-spoke.jpeg",
+      "title": "no one spoke",
+      "title_zh": "那晚没人说话",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "flat silhouette",
+        "typography": "diagonal drifting phrase + ghost microtext",
+        "accent": "saturated pear-green",
+        "texture": "letterpress ink bleed + aged mottling",
+        "mood": "solitude"
+      },
+      "accent_hex": "#7FA82B",
+      "source": "photo — 圣诞树仰拍，灯串从顶端星星呈放射状散开",
+      "note": "反过来处理：树沉到左下角，把照片里那片被灯占满的天空全部空出来。颜色由树本身承担，灯串退化成向上散开的几根发丝线。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm ivory paper with organic mottling and fine fibers, flat orthographic scanned-paper look, no border, no mockup. About 87% of the frame reads as empty paper; one small cluster occupies roughly 10% of the canvas, floating in the lower-left quadrant with a vast quiet emptiness above it.\n\nThe cluster is one small flat opaque silhouette of a conical evergreen tree seen from below, graphic and stencil-like rather than photographic, its outline slightly rough as if cut from printed paper. From a tiny pale star mark at its apex, a sparse fan of extremely fine hairlines rises and spreads up into the empty paper, plus a scatter of minute dots along them like bulbs, fading out well before the top edge. Softened edges, slight ink bleed, a faint off-register grey ghost of the same silhouette a hair to one side.\n\nTypography: a short serif phrase \"no one spoke\" drifting in the middle-right emptiness, small and isolated; tiny typewriter microtext \"Dec.24 / 21:50 / clear\" beneath the tree; a faint caption \"fig. 11 - the tree, from below\" and an almost illegible grey ghost line \"stayed for the cold\" at the lower right, coarse and half-dissolved. Exactly one high-chroma accent: the tree silhouette itself is printed in fully saturated opaque pear-green letterpress ink, dense and vivid, keeping full saturation under the grain and bleed, occupying about 1.8% of the canvas and roughly 30% of the cluster, clearly visible at thumbnail scale. Hairlines, dots, star and all text remain muted grey. Print defects: letterpress ink bleed, halftone degradation on the ghost silhouette, aged paper mottling, scan noise.\n\nQuiet, nostalgic, slightly solitary winter-night mood, Korean/Japanese minimal zine and editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: festive Christmas card decoration, holiday greeting layout, ornaments clutter, glitter, sparkles, bokeh, cinematic lighting, neon glow, full-bleed night scene, commercial headline, product ad, brand logo, CTA, glossy mockup, clean digital UI, 3D render, cute cartoon, anime, dense scrapbook collage, too many colors, long clean text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 6,
+      "file": "img/06-someone-left-a-light-on.jpeg",
+      "title": "someone left a light on",
+      "title_zh": "有人留了一盏灯",
+      "recipe": {
+        "layout": "center-fragment",
+        "anchor": "abstract texture window",
+        "typography": "archive microtext with date/weather",
+        "accent": "saturated lemon-yellow",
+        "texture": "xerox softness + scan noise",
+        "mood": "quiet"
+      },
+      "accent_hex": "#E8C824",
+      "source": "photo — 从室内窗框看向湖对岸的废楼，栏杆、棕榈、一盏亮着的灯",
+      "note": "照片本身就是「框中框」——把整个窗口缩成邮票大的一个开口。唯一的暖色是那盏灯，冷蓝暮色里唯一还亮着的东西，正对着一栋空壳楼。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool grey-white paper with fine fibers, scan noise and faint mottling, flat orthographic scanned-paper appearance, no border, no mockup. About 85% of the frame is bare empty paper; one small visual cluster occupies roughly 13% of the canvas, centred slightly above the middle, well clear of all edges.\n\nThe cluster is a small square aperture cut into the paper, a window-shaped texture window about the size of a stamp, showing inside it a muted low-contrast grayscale halftone view: a few drooping palm fronds at its top-left, the dark hollow shell of an abandoned concrete building at its right, and a flat pale strip of still water across its lower third. The aperture has a slightly rough cut edge with xerox wear and photocopy softness, and a hairline geometric lattice pattern of thin dark lines crosses its bottom edge like a railing.\n\nTypography: tiny typewriter and monospace archive microtext in muted grey-black - field notes \"Jun.18 / 19:24 / 28C humid\" above the aperture, a short serif phrase \"someone left a light on\" set to its left pressed near the cut edge, and a faint half-dissolved column \"archive no. 052 / window seat / the ruin across the water\" at the lower right. Exactly one high-chroma accent: a small flat opaque lantern-shaped block of fully saturated lemon-yellow risograph ink sits just inside the aperture's lower-right corner, breaking slightly over the cut edge, dense and vivid with its saturation fully preserved under the grain, covering about 2% of the canvas and roughly 25% of the cluster, unmistakable at thumbnail size. Paper, halftone view, lattice lines and all text stay subdued grey. Print defects: xerox softness, scan noise, paper fibers, slight ink bleed, one-millimetre misregistration.\n\nQuiet, humid, solitary dusk mood, the feeling of looking out from indoors, Japanese/Korean indie zine and minimal editorial restraint, matte absorbent paper, diffuse even light, low-to-medium contrast, no hard shadow, no depth. Avoid: full-bleed landscape photograph, travel postcard, real-estate advertisement, commercial headline, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, 3D render, neon, cute cartoon, anime, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 7,
+      "file": "img/07-the-water-kept-a-copy.jpeg",
+      "title": "the water kept a copy",
+      "title_zh": "水留了一份副本",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "tiny faded photo mirrored",
+        "typography": "short phrase pressed against image edge",
+        "accent": "saturated orange",
+        "texture": "halftone degradation",
+        "mood": "seaside"
+      },
+      "accent_hex": "#F0691A",
+      "source": "photo — 码头日落，栏杆与五球路灯的剪影，前景水面完整倒影",
+      "note": "照片里最强的结构是上下对称的倒影，所以做成镜像双栏。橙色只留给「水里那份副本」的灯——真实的灯是灰的，倒影才有颜色。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm ivory paper with organic mottling and fine flecks, flat orthographic scan, no border, no mockup. At least 86% of the frame must read as completely bare empty paper. One small cluster of two stacked panels occupies only about 12% of the canvas, sitting just below the vertical centre with a narrow horizontal gap between the panels. Keep the panels small and stamp-sized, surrounded by generous emptiness.\n\nThe cluster is a dual-panel mirror, both panels rendered almost entirely in muted low-contrast grayscale halftone: the upper panel is a small strip showing the silhouette of a low harbour railing, a lamp post carrying a cluster of round globe lamps, and a small moored boat, all flat dark grey shapes against pale sky; the lower panel is the same image flipped upside down as its reflection in still water, softer, its halftone dots coarser and partly dissolved, its edges bleeding. A narrow strip of bare paper separates them like the line of a quay.\n\nTypography: a short serif phrase \"the water kept a copy\" pressed directly against the right edge of the upper panel; tiny typewriter microtext \"18:51 / tide out / no wind\" beneath the lower panel; a faint barely-legible line \"fragment x 017 - south quay\" at the lower left, half-eaten by the halftone screen. Exactly one high-chroma accent, and it must stay SMALL: only the reflected globe lamps in the lower panel plus one very thin horizontal water line beneath them are printed in fully saturated opaque orange screenprint ink, dense and vivid, chroma fully preserved through the halftone and bleed. This orange must cover only about 2% of the whole sheet and no more than 30% of the small cluster. Do NOT flood the lower panel with orange, do not tint the whole reflection orange, do not add any second colour. Everything else - upper panel, lower panel body, paper and all text - stays muted grey and black. Print defects: coarse halftone degradation, misregistration between the two panels, ink bleed, paper mottling.\n\nQuiet, still, seaside evening mood, archival and diary-like, Japanese/Korean minimal zine and editorial restraint, matte paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: large blocks of colour, colour-dominant composition, full-bleed sunset photograph, travel poster, postcard, commercial headline hierarchy, brand logo, CTA, glossy mockup, clean digital UI, cinematic lighting, HDR glow, 3D render, neon, cute cartoon, dense scrapbook collage, too many colors, long clean text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 8,
+      "file": "img/08-four-seconds.jpeg",
+      "title": "four seconds",
+      "title_zh": "四秒钟的海",
+      "recipe": {
+        "layout": "type-led",
+        "anchor": "typography as anchor, image nearly absent",
+        "typography": "headline-as-object with motion blur",
+        "accent": "saturated violet",
+        "texture": "soft motion blur + letterpress bleed",
+        "mood": "memory"
+      },
+      "accent_hex": "#6B2FA8",
+      "source": "photo — 行驶车窗外拍到的糊掉的水面夕照，几根电杆一闪而过",
+      "note": "这张照片的内容其实是「看不清」本身。所以图退场，让字去承担模糊——那几根一闪而过的电杆缩成两道竖条。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged grey-white paper with visible fibers and scan noise, flat orthographic scanned-paper appearance, no border, no mockup. About 84% of the frame is bare empty paper; the composition is led by typography, with one small supporting mark, together occupying roughly 14% of the canvas across the middle band.\n\nTypography is the main anchor and it carries the colour: the headline \"four seconds\" is set in medium-large serif type across the middle of the sheet, and EVERY letter of it is printed in solid, fully saturated, opaque violet letterpress ink - dense, vivid, unmistakably purple, no grey letters, no outline-only letters, no pale ghosting of the colour. The whole headline is smeared horizontally with soft motion blur as if photographed from a moving vehicle, letters doubling and dragging to the right, ink heavy on the left edge of each stroke, but the violet stays fully saturated through the blur and bleed. This violet type must cover roughly 2.2% of the whole sheet and about 30% of the composition, and must be instantly obvious as the only colour when the poster is viewed as a small thumbnail.\n\nBelow the headline, a very thin horizontal band of muted grayscale halftone stands in for a distant shoreline, only a few millimetres tall, interrupted twice by narrow vertical dark bars like passing poles. Secondary typography: tiny crisp typewriter microtext \"from a moving car / 18:40 / glass not clean\" under the smeared headline, and a faint half-legible column \"archive no. 063 / seen once / not returned\" at the lower right, degraded. The halftone shoreline band, vertical bars, paper and all microtext stay muted grey with no colour at all. Print defects: soft directional motion blur on the headline only, letterpress ink bleed, scan noise, paper fibers, slight misregistration.\n\nQuiet, fleeting, memory-like mood with a trace of surrealism, the feeling of a landscape that could not be held, Japanese indie zine and minimal editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no depth. Avoid: grey headline, colourless type, pale or faded violet, tiny colour dot, full-bleed blurred photograph, motion-graphic poster, commercial headline hierarchy, product ad, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, neon, 3D render, cute cartoon, anime, dense scrapbook collage, too many colors, long clean paragraphs.",
+      "series": "singles"
+    },
+    {
+      "id": 9,
+      "file": "img/09-the-edge-of-the-day.jpeg",
+      "title": "the edge of the day",
+      "title_zh": "一天的边缘",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "object specimen",
+        "typography": "almost textless, tiny caption only",
+        "accent": "saturated tomato-red",
+        "texture": "letterpress bleed + aged mottling",
+        "mood": "solitude"
+      },
+      "accent_hex": "#DE3B26",
+      "source": "photo — 堤岸夕照，两盏球灯路灯剪影，橙色地平线带与水面波纹",
+      "note": "最克制的一张。把整片戏剧化的云和水全部删掉，只留一条被压制成标本的地平线，两盏灯站在上面——89% 是空白。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm cream paper with heavy organic mottling, foxing specks and visible fibers, flat orthographic scan, no border, no mockup. About 89% of the frame is completely bare paper; one isolated specimen mark occupies roughly 8% of the canvas, placed in the lower-middle third, with almost no supporting graphics.\n\nThe specimen is a single long thin horizontal band of ink lying across the sheet like a pressed strip of the horizon, only a few millimetres tall and not reaching either edge, its ends softly frayed and absorbed into the paper. Standing on top of it, right of centre, are two extremely small dark silhouettes of harbour lamp posts with clusters of round globe heads, no taller than the microtext beside them; a faint grey off-register ghost of the same band sits a hair below it, coarser and half-dissolved.\n\nTypography: almost textless - one tiny typewriter caption \"fig. 24 - the edge of the day\" set beneath the band, and a single faint half-legible line \"19:07 / low tide / clouds moving in\" at the lower right, degraded and partly faded into the paper. No other text. Exactly one high-chroma accent: the horizontal band itself is printed in fully saturated opaque tomato-red letterpress ink, dense and vivid, retaining full chroma through the ink bleed and frayed ends, covering about 1.4% of the canvas and roughly 30% of the visual cluster, clearly visible at thumbnail scale. Paper, lamp silhouettes, ghost band and all text remain muted grey. Print defects: letterpress ink bleed, aged paper mottling, scan noise and paper fibers, slight misregistration.\n\nQuiet, austere, solitary end-of-day mood, archival and distant, Japanese/Korean minimal zine and editorial restraint, matte absorbent paper, diffuse even light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: full-bleed sunset scene, dramatic sky photograph, travel poster, postcard, commercial headline, product ad, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, 3D render, neon, cute cartoon, dense scrapbook collage, too many colors, long clean text.",
+      "series": "singles"
+    },
+    {
+      "id": 10,
+      "file": "img/10-nobody-was-watching.jpeg",
+      "title": "nobody was watching",
+      "title_zh": "没人在看",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "torn-paper clipping",
+        "typography": "fragmented floating letters",
+        "accent": "saturated pear-green",
+        "texture": "film grain + halftone",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#8CB82C",
+      "source": "photo — 灰云灰海之间，一艘绿帆中式帆船 | 2026-08 重做：原版色块 0.747% canvas / 3.5% cluster，低于 skill 的 0.8% 下限；加 STRICT TEXT WHITELIST 与不透明实色措辞后重生成，现 2.485% / 19.8%",
+      "note": "这张照片自带完美的技能结构——灰海灰云里唯一一处高饱和就是那两片绿帆。几乎没改配色逻辑，只是把海撕成一条纸片，让船挣出边缘。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool ivory paper with fine flecks, fibers and faint mottling, flat orthographic scanned-paper appearance, no border, no mockup. Roughly 85% of the frame is bare empty paper; one small cluster occupies about 12% of the canvas, positioned in the upper-middle to upper-right area, clear of the edges.\n\nThe cluster is an irregular torn-edge horizontal strip of paper carrying a muted low-contrast grayscale halftone: heavy flat-toned cloud mass above, a low dark ridge of distant mountains, and a pale band of open sea below, all reduced to soft print tones with film grain. Sitting on the pale sea band and breaking downward past the strip's lower torn edge is one small boat - an old junk in dark grey silhouette, hull tiny. Its two sails rise from that tiny hull and are disproportionately large for the boat: two tall curved shapes, each about one quarter the height of the torn strip, together the boldest single shape in the cluster.\n\nThe two sails are a SOLID SILHOUETTE OF INK: flat opaque spot-colour pear-green, one uniform vivid tone edge to edge, printed ON TOP so that absolutely nothing shows through them - no halftone dots inside the sails, no grey photograph visible through them, no transparency, no gradient, no texture inside the shape, like a die-cut piece of green paper laid over the print. Fully saturated, dense, matte. They cover about 1.8% of the whole canvas and roughly 22% of the visual cluster, plainly visible at thumbnail size. Everything else on the sheet - cloud strip, mountains, sea, hull, paper, all type - stays muted grey.\n\nTypography: loose typewriter monospace, slightly tilted and misregistered, letterspaced wide. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is these three strings: \"nobody was watching\" / \"17:58 / open water / wind from the east\" / \"archive no. 071 / one sail, still up\". Each string is printed once and once only, spelled exactly as given, with no repeated letter and no stray single letter floating anywhere, and no full stop added. Do not render any other word or character. Do not print any word from these instructions. No caption, no signature, no username, no handle, no watermark, no logo, no page number. Print defects: film grain, halftone degradation, torn fibrous cutout edge, slight misregistration, ink bleed.\n\nQuiet, vast, distant mood with a trace of gentle surrealism, the smallness of one moving thing under an enormous sky, Japanese/Korean minimal zine and minimal editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: translucent accent, semi-transparent ink, see-through colour, halftone visible inside the coloured shape, pale accent, muted accent, faded accent, pastel accent, gradient accent, stray duplicated letters, extra punctuation, full-bleed seascape photograph, dramatic sunset panorama, travel poster, postcard, commercial headline, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, 3D render, neon, cute cartoon, anime, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 11,
+      "file": "img/11-apron-before-the-heat.jpeg",
+      "title": "apron, before the heat",
+      "title_zh": "停机坪，热起来之前",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "flat silhouette",
+        "typography": "almost textless, tiny caption only",
+        "accent": "saturated lemon-yellow",
+        "texture": "aged mottling + xerox softness",
+        "mood": "solitude"
+      },
+      "accent_hex": "#E6C21F",
+      "source": "photo — 雾霾金光里的机场停机坪，两名地面人员背对镜头走远，远处塔台化在雾里",
+      "note": "照片本身已经是这个技能的构图了：巨大的空水泥地 + 两个极小的人。我只把留白推到 89%，塔台缩成一根线，反光背带的 X 成为全画面唯一的颜色。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm dust-cream paper with heavy organic mottling, faint xerox blotching and visible fibers, flat orthographic scan, no border, no mockup. About 89% of the frame is completely bare paper, deliberately vast and hazy and empty. One very small visual cluster occupies only about 8% of the canvas, floating low and slightly left of centre, with an enormous emptiness above it.\n\nThe cluster is two extremely small dark human silhouettes seen from behind, walking away side by side across nothing, flat and graphic like figures cut from printed paper, one carrying a small rectangular case between them. They stand on a single faint hairline that suggests a concrete seam, and far above them one barely-there pale grey vertical mark, no thicker than a thread, stands in for a distant control tower dissolving in haze. Xerox softness, photocopy wear, slight ink bleed on the figures, one faint off-register grey ghost of the pair a hair to the right.\n\nTypography: almost textless. One tiny typewriter caption \"fig. 31 - apron, before the heat\" set beneath the two figures, and a single faint half-dissolved line \"07:40 / visibility low / no wind\" at the lower right. No other text anywhere. Exactly one high-chroma accent: the reflective safety harness crossing each figure's back is printed as a small crisp X of fully saturated opaque lemon-yellow risograph ink, dense and vivid, saturation fully preserved against the grey silhouettes, the two X marks together covering about 1.2% of the canvas and roughly 25% of the tiny cluster, unmistakably visible at thumbnail size. Paper, figures, hairline, tower mark and all text stay subdued warm grey. Print defects: aged paper mottling, xerox softness, scan noise, paper fibers, slight misregistration.\n\nQuiet, solitary, hazy early-morning industrial mood, two people small inside an enormous flat emptiness, Japanese/Korean indie zine and minimal editorial restraint, matte absorbent paper, diffuse even light, low contrast, no hard shadow, no depth. Avoid: full-bleed airport photograph, aviation poster, travel advertisement, commercial headline, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, lens flare, 3D render, neon, cute cartoon, anime, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 12,
+      "file": "img/12-it-caught-the-last-of-it.jpeg",
+      "title": "it caught the last of it",
+      "title_zh": "它接住了最后一点",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "solid color block",
+        "typography": "text inside a color block",
+        "accent": "saturated orange",
+        "texture": "letterpress ink bleed",
+        "mood": "night"
+      },
+      "accent_hex": "#F2701C",
+      "source": "photo — 香港两栋高楼之间的一线夕照，右侧玻璃幕墙上烧起一条红橙色反光带",
+      "note": "照片最奇特的地方是：夕阳只打中了一栋楼的一排窗。所以整张海报只有那一条横带有颜色，句子直接印在带子里面。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool grey-white paper with fine fibers and faint mottling, flat orthographic scanned-paper appearance, no border, no mockup. Roughly 85% of the frame reads as bare empty paper; one small cluster occupies about 12% of the canvas, sitting in the upper-right quadrant, with loose empty space and a few drifting marks below it.\n\nThe cluster is a narrow tall slot: two flat dark grey vertical bars standing very close together like the flanks of two tower blocks cut from printed paper, and between them a thin sliver of pale bare paper standing in for the last of the sky. Against the right-hand bar, a single horizontal band of colour burns across its glass face, as if the sun had struck only one row of windows. The bars carry a faint grid of hairline window lines, letterpress ink bleed at their edges, and one of them is misregistered a hair from its own grey ghost.\n\nTypography: the text sits inside the colour band itself - a very short serif phrase \"it caught the last of it\" reversed out in tiny pale letters within the burning band, slightly broken by the ink; plus tiny typewriter microtext \"18:12 / between two towers / 29C\" set just below the slot, and a faint half-legible column \"archive no. 084 / one row of windows\" at the lower left. Exactly one high-chroma accent: that single horizontal window band is printed in fully saturated opaque orange letterpress ink, dense and vivid, chroma fully preserved through the bleed, covering about 2% of the canvas and roughly 30% of the cluster, instantly obvious at thumbnail size. Everything else - bars, hairline grid, paper, all other text - stays muted grey and black. Print defects: letterpress ink bleed, misregistration, scan noise, paper fibers.\n\nQuiet, vertical, hemmed-in city dusk mood, archival and distant, Japanese/Korean minimal zine and editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: full-bleed cityscape photograph, skyline poster, real-estate advertisement, travel postcard, commercial headline hierarchy, brand logo, CTA, glossy mockup, clean digital UI, cinematic lighting, HDR glow, lens flare, 3D render, neon, cyberpunk, cute cartoon, dense scrapbook collage, too many colors, long clean text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 13,
+      "file": "img/13-eleven-minutes.jpeg",
+      "title": "eleven minutes",
+      "title_zh": "十一分钟",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "solid color block / torn cutout",
+        "typography": "low-contrast gray ghost text",
+        "accent": "saturated magenta-pink",
+        "texture": "risograph grain + torn edge",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#E0247A",
+      "source": "photo — 粉紫色晚霞下的立交桥车流，城市天际线只是一条黑影",
+      "note": "那种粉紫天空真实存在但看起来是假的，所以做成一块撕下来的粉色纸片，压在一张细线画的公路图上方。文字全部处理成幽灵般的浅灰，因为天空已经很吵了。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged ivory paper with organic mottling, fine flecks and visible fibers, flat orthographic scan, no border, no mockup. About 86% of the frame is bare empty paper; one small cluster occupies roughly 12% of the canvas, sitting in the upper-middle area with quiet emptiness beneath it.\n\nThe cluster is an irregular torn-edge cutout of paper shaped like a low flat cloud bank, printed as a solid opaque panel, its torn fibrous edge soft and slightly frayed. Beneath and clear of it, drawn very small in muted grey, two or three thin hairline curves sweep and cross each other like the ramps of an interchange seen from far above, dotted along their length with a scatter of minute pin-dots standing in for car lights, thinning to nothing before the edges of the sheet.\n\nSTRICT TEXT WHITELIST - the poster may contain ONLY these three text elements and absolutely nothing else: (a) the phrase \"eleven minutes\" in small serif type, printed very pale grey so it half sinks into the paper, set to the left of the cutout; (b) the line \"then it was just night\" in small serif type, even fainter, drifting below the hairline curves; (c) the tiny typewriter line \"19:36 / overpass / warm\" at the lower right. Do NOT add any other word, label, caption, number, signature or letter anywhere on the sheet. Do NOT render any descriptive or technical words from these instructions as visible text in the image. Every word that appears must be spelled exactly as written above.\n\nExactly one high-chroma accent: the torn cloud cutout is printed in fully saturated opaque magenta-pink risograph ink, dense and vivid, its saturation fully preserved through the grain and frayed edge, covering about 2.3% of the canvas and roughly 30% of the cluster, unmistakable at thumbnail size. Hairlines, pin-dots, paper and all text stay muted grey with no second colour. Surface treatment of the sheet: risograph grain, uneven roller ink, torn fibrous edge, aged paper mottling, slight misregistration - rendered purely as texture, never as printed words.\n\nQuiet mood with a trace of gentle surrealism, an impossible sky sitting above a diagram of roads, Japanese/Korean minimal zine and minimal editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: extra text, stray words, misspelled words, watermark text, full-bleed sunset photograph, dramatic sky panorama, travel poster, postcard, city-lights wallpaper, commercial headline, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, bokeh, 3D render, neon, cyberpunk, cute cartoon, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 14,
+      "file": "img/14-tiao-jin-ran-gang.jpeg",
+      "title": "跳进染缸",
+      "title_zh": "跳进染缸",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "ink blot specimen",
+        "typography": "headline-as-object with rough letterpress",
+        "accent": "saturated cobalt-blue",
+        "texture": "letterpress bleed + capillary wicking",
+        "mood": "night"
+      },
+      "accent_hex": "#1E4FC4",
+      "source": "photo — livehouse 现场，乐队在演出，墙上挂着「跳进染缸」的书法匾额，两侧圆球灯",
+      "note": "照片墙上那幅字是整张图的钥匙——「染缸」本身就是油墨。于是把它字面化：一滩饱和钴蓝的墨渗进纸纤维，一个米粒大的人正抬脚跨进去。台上那排圆灯缩成五个灰点。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm cream paper with organic mottling, foxing specks and visible fibers, flat orthographic scan, no border, no mockup. About 87% of the frame is completely bare paper; one isolated specimen occupies roughly 10% of the canvas, placed slightly below the vertical centre, with almost no supporting graphics.\n\nThe specimen is a single irregular blot of ink soaking into the paper, roughly the shape of a shallow open vat or a spilled pool, its edges bleeding outward into the fibres in fine capillary threads. Standing at its rim, one very small dark human silhouette is caught mid-step in the act of stepping in, no bigger than a grain of rice, flat and graphic; a few minute droplets have splashed clear of the pool. Above the blot, a short horizontal row of five tiny pale circles, evenly spaced like a line of round stage lamps, printed faintly in grey.\n\nTypography: a rough letterpress headline treated as an object - four Chinese characters 跳进染缸 set small and dense in a heavy inked serif, pressed close against the upper-left edge of the blot, letters slightly crushed and over-inked with visible bleed, one character misregistered. Below, tiny typewriter microtext \"22:40 / four songs left / loud\" and a faint half-legible line \"archive no. 093 / basement, brick wall\" at the lower right. Exactly one high-chroma accent: the ink blot itself is printed in fully saturated opaque cobalt-blue letterpress ink, dense and vivid, chroma fully preserved through the bleeding edges and paper absorption, covering about 2.2% of the canvas and roughly 30% of the visual cluster, unmistakable at thumbnail size. The figure, lamp circles, paper and all text stay muted grey and black. Print defects: heavy letterpress ink bleed, capillary wicking into paper fibres, halftone degradation on the lamp row, aged mottling, misregistration.\n\nQuiet but charged night mood, the private stillness just before something loud, archival and diary-like, Japanese/Korean minimal zine and minimal editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: full-bleed concert photograph, gig poster, band promo, music festival advertisement, stage spotlight beams, commercial headline hierarchy, brand logo, CTA, glossy mockup, clean digital UI, cinematic lighting, neon, 3D render, cute cartoon, anime, dense scrapbook collage, too many colors, long clean text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 15,
+      "file": "img/15-the-harbour-was-on-fire.jpeg",
+      "title": "the harbour was on fire",
+      "title_zh": "港口烧起来了",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "tiny faded photo + smeared band",
+        "typography": "archive microtext with date/weather",
+        "accent": "saturated tomato-red",
+        "texture": "film grain + directional motion blur",
+        "mood": "memory"
+      },
+      "accent_hex": "#E13A22",
+      "source": "photo — 车窗外掠过的港口，天空烧成猛烈的橙红，桅杆与天线成排剪影",
+      "note": "上栏是那丛细如发丝的桅杆（清晰的部分），下栏是被车速拖成一条横带的水（糊掉的部分）。颜色只给下面那条——记忆里留下的从来不是细节，是那片红。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged grey-white paper with visible fibers, scan noise and faint mottling, flat orthographic scanned-paper appearance, no border, no mockup. Roughly 84% of the frame reads as bare empty paper; one small cluster of two thin stacked panels occupies about 13% of the canvas, sitting just above the vertical centre with a narrow bare-paper gap between them.\n\nThe upper panel is a narrow horizontal strip of muted low-contrast grayscale halftone: a thicket of extremely thin vertical masts and antennas rising from a low huddle of flat pale dockside buildings, all reduced to grey print tones, film-grained and slightly dissolving. The lower panel is a shorter, narrower band directly beneath it, smeared horizontally with soft motion blur as if seen from a moving vehicle, its edges dragging sideways and doubling, standing in for the water taking the colour of the sky.\n\nTypography: archive microtext in small typewriter type - \"Nov.03 / 17:44 / from a bus / glass dirty\" set beneath the lower band; a short serif phrase \"the harbour was on fire\" pressed against the left edge of the upper panel; and a faint half-legible column \"archive no. 101 / four masts counted / did not stop\" at the lower right, degraded and partly faded. Exactly one high-chroma accent: the lower smeared band is printed in fully saturated opaque tomato-red screenprint ink, dense and vivid, its chroma fully preserved despite the horizontal blur and edge bleed, covering about 2.2% of the canvas and roughly 30% of the cluster, instantly visible at thumbnail scale. Masts, buildings, upper panel, paper and all text stay muted grey with no second colour. Print defects: film grain, halftone degradation, soft directional motion blur on the lower band only, scan noise, paper fibers, misregistration between the two panels.\n\nQuiet, fleeting, memory-like seaside mood, something enormous seen briefly and not returned to, Japanese/Korean minimal zine and minimal editorial restraint, matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow, no 3D depth. Avoid: full-bleed sunset photograph, dramatic burning sky panorama, travel poster, postcard, commercial headline hierarchy, brand logo, CTA, glossy mockup, clean white UI, cinematic lighting, HDR, lens flare, 3D render, neon, cute cartoon, dense scrapbook collage, too many colors, long clean paragraphs of text.",
+      "series": "singles"
+    },
+    {
+      "id": 16,
+      "file": "img/16-someone-dressed-the-dark.jpeg",
+      "title": "someone dressed the dark",
+      "title_zh": "有人替黑暗穿上了衣服",
+      "recipe": {
+        "layout": "dot-orbit",
+        "anchor": "object specimen (pressed berry twig)",
+        "typography": "archive microtext with time/place",
+        "accent": "saturated crimson red",
+        "texture": "letterpress ink bleed + xerox wear",
+        "mood": "night"
+      },
+      "accent_hex": "#C81433",
+      "source": "photo — 酒店门厅，全黑的墙与地，白色长毛圆桌上一丛红果、地精、金色锥形树与红礼盒",
+      "note": "整间屋子是黑的，唯一在活的是那一丛红。所以别的都退成灰，只留浆果保留全饱和——你记得的不是那张桌子，是有人特意在黑里摆了红色这件事。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm-grey paper with fibre speck and mottling, no border, no mockup, flat orthographic scan. About 85% of the sheet is empty plain paper. One small visual cluster occupying roughly 12% of the canvas, sitting slightly below the optical centre, never touching the edges.\n\nThe cluster is one pressed specimen of a small round berry cluster on a bare twig, printed as an old letterpress botanical specimen with soft ink bleed and slightly broken edges. Around it, a loose orbit of eight tiny grey printed dots and one thin hairline arc, like an archival diagram of a room in the dark. The twig and the surrounding paper stay muted warm grey.\n\nTypography: tiny archive microtext in a serif/typewriter face, placed as one short line under the specimen and two even smaller lines to its left. Accent strategy: exactly ONE high-chroma hue — solid, fully saturated opaque crimson red letterpress ink (#C81433) — used only for the berries themselves, a compact cluster of round crimson dots reading as one small mass. The crimson must occupy about 1.8% of the whole canvas and about 22% of the small cluster, clearly visible at thumbnail size; do not desaturate, fade, pale or grey it, and do not spread red anywhere else on the sheet. Print defects: letterpress ink bleed, faint misregistration of one grey element by half a millimetre, xerox wear at the specimen edge.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly: \"someone dressed the dark\" and \"21:40\" and \"lobby\". Do NOT render any descriptive, stylistic or technical word from these instructions as visible text in the image. No other letters, no logo, no signature, no watermark, no caption blocks, no spelling variations.\n\nQuiet, nocturnal, archival Japanese/Korean indie zine mood; matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow. Avoid: full-bleed scene, interior photograph, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable paragraphs.",
+      "series": "singles"
+    },
+    {
+      "id": 17,
+      "file": "img/17-there-is-another-world.jpeg",
+      "title": "there is another world",
+      "title_zh": "別有天地",
+      "recipe": {
+        "layout": "center-fragment",
+        "anchor": "flat silhouette inside torn texture patch",
+        "typography": "short phrase pressed against image edge",
+        "accent": "saturated turquoise",
+        "texture": "risograph grain + misregistration",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#0FA3A8",
+      "source": "photo — 中环夜街，整面墙的靛蓝壁画里一匹小白马，旁边写着 THERE IS ANOTHER WORLD 別有天地",
+      "note": "照片里马很小、墙很大。这里把街、车、玻璃幕墙全部删掉，只留一小片深水色的纸和那匹马——「別有天地」这四个字本身就是构图，不需要城市来解释。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged off-white paper with visible fibres and faint aged mottling, no border, no mockup, flat orthographic scan. About 88% of the sheet is empty plain paper. One very small visual cluster occupying roughly 9% of the canvas, placed exactly at the centre with wide air on all sides.\n\nThe cluster is one tiny flat silhouette of a small standing horse, drawn like a naive chalk outline, sitting inside a small softly torn rectangular patch of grey risograph texture that suggests a wall of deep water. Nothing else is illustrated — no street, no buildings, no cars.\n\nTypography: one short phrase in small serif capitals pressed tight against the right edge of the torn patch, plus two vertical Chinese characters set even smaller directly below it. Accent strategy: exactly ONE high-chroma hue — vivid saturated turquoise risograph ink (#0FA3A8) — used as the horse itself, an opaque turquoise flat silhouette, plus nothing else. The turquoise must occupy about 1.2% of the whole canvas and about 18% of the small cluster and stay clearly visible at thumbnail size; keep the surrounding torn patch muted grey and do not pale, fade or pastel the turquoise. Print defects: risograph grain, one-millimetre misregistration between the turquoise horse and its grey ghost, slight ink smear at the patch edge.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly: \"THERE IS ANOTHER WORLD\" and \"別有天地\". Do NOT render any descriptive, stylistic or technical word from these instructions as visible text. No other letters, no numbers, no logo, no watermark, no extra captions, no misspellings.\n\nQuiet, slightly surreal, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, night street photograph, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 18,
+      "file": "img/18-it-burned-behind-the-leaves.jpeg",
+      "title": "it burned behind the leaves",
+      "title_zh": "它在叶子后面烧",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "abstract texture window (willow curtain halftone)",
+        "typography": "low-contrast gray ghost text",
+        "accent": "molten saturated orange",
+        "texture": "halftone degradation + scanline drift",
+        "mood": "memory"
+      },
+      "accent_hex": "#E4551A",
+      "source": "photo — 逆光的垂柳帘幕，密密的叶子后面透出正在燃烧的橙色落日",
+      "note": "落日没有出场，只是从叶缝里漏出几块橙。柳叶做成越印越糊的网点，让「看不清」本身成为主体——你要的不是日落，是被挡住的那种感觉。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged pale-grey paper with fine scan noise and paper fibres, no border, no mockup, flat orthographic scan. About 84% of the sheet is empty plain paper. One small visual cluster occupying roughly 15% of the canvas, positioned in the upper-right area with a large empty lower-left field.\n\nThe cluster is one small rectangular abstract texture window: a dense curtain of hanging willow leaves reproduced as a coarse degraded halftone in muted dark grey, heavily dot-broken, like a photocopy of a photocopy. The window has a slightly softened photocopy edge and sits alone on the paper.\n\nTypography: low-contrast grey ghost text set in a small serif face. There is exactly ONE text line of prose on the sheet, printed once and once only, placed to the left of the window, plus one tiny four-digit clock time beneath it. Set the prose line as a single unbroken line; do not duplicate, echo, repeat, stutter or double-print any word of it, and do not print a second faint copy of the line anywhere. Accent strategy: exactly ONE high-chroma hue — molten saturated orange risograph ink (#E4551A) — appearing only as a few small opaque orange fragments glowing through the gaps in the leaf halftone, gathered near the lower middle of the window so they read as one small burning mass. The orange must occupy about 1.6% of the whole canvas and about 20% of the cluster and remain visible at thumbnail size; keep the leaves grey and never wash out, pale or pastel the orange, and do not let orange bleed outside the window. Print defects: halftone degradation, xerox wear, faint horizontal scanline drift — applied to the image window only, never to the letterforms.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly these two strings, each appearing exactly once: \"it burned behind the leaves\" and \"18:52\". The first string must contain exactly five words in that exact order with no repeated word. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text. No other letters, no logo, no watermark, no extra captions, no misspellings, no duplicated words.\n\nQuiet, nostalgic, memory-like Japanese/Korean indie zine mood; matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow. Avoid: full-bleed scene, realistic landscape photo, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 19,
+      "file": "img/19-nobody-faced-the-view.jpeg",
+      "title": "nobody faced the view",
+      "title_zh": "没有人看那片风景",
+      "recipe": {
+        "layout": "type-led",
+        "anchor": "solid color block (glowing ice bucket)",
+        "typography": "diagonal scattered words",
+        "accent": "saturated cyan-blue",
+        "texture": "scan noise + paper fibres",
+        "mood": "night"
+      },
+      "accent_hex": "#00A6E8",
+      "source": "photo — 维港边的餐厅夜景，落地窗外整片天际线，铜色圆形吊灯，桌上一只发蓝光的冰桶",
+      "note": "满屋子人背对着那片天际线。所以天际线只配五个灰色小方块，全饱和的那一格给了桌上那只冷光冰桶——真正被看着的东西才有资格上色。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool-grey paper with scan noise and paper fibres, no border, no mockup, flat orthographic scan. About 86% of the sheet is empty plain paper. Typography-led composition: the text is the main anchor and the image element is secondary and very small. The whole cluster occupies roughly 14% of the canvas, sitting in the middle band of the sheet.\n\nAnchor: one short lowercase phrase in a worn typewriter face, letters slightly diagonal and drifting apart, printed large enough to be the visual event but still small on the sheet. Beneath the phrase, a row of five tiny grey rectangles like a fragment of a city skyline reduced to a printed diagram, plus one small solid square.\n\nTypography: diagonal scattered words in muted grey with a soft letterpress bite; one tiny archive line with a place word and a time. Accent strategy: exactly ONE high-chroma hue — glowing saturated cyan-blue risograph ink (#00A6E8) — used as that single small solid square, a cold opaque block of light sitting at the right end of the grey skyline row, like a lit ice bucket on a dark table. The cyan must occupy about 1.4% of the whole canvas and about 22% of the cluster and stay clearly visible at thumbnail size; keep everything else grey and never pale, fade or pastel the cyan. Print defects: scan noise, paper fibres, half-millimetre misregistration of the cyan square against a faint grey ghost of itself.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly: \"nobody faced the view\" and \"HARBOUR\" and \"20:10\". Do NOT render any descriptive, stylistic or technical word from these instructions as visible text. No other letters, no logo, no watermark, no extra captions, no misspellings.\n\nQuiet, nocturnal, distant, diary-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, restaurant photograph, crowd, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon signage, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 20,
+      "file": "img/20-you-ren-tiao-hai.jpeg",
+      "title": "someone jumped into the sea",
+      "title_zh": "有人跳海",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "torn-paper clipping (lone surfer)",
+        "typography": "headline-as-object, handwritten Chinese",
+        "accent": "acid saturated yellow",
+        "texture": "xerox softness + letterpress bite",
+        "mood": "seaside"
+      },
+      "accent_hex": "#E8DE18",
+      "source": "photo — 一叠冲浪摄影展海报，黄色手写「有人跳海 有人滑浪」，Drunk N Jump × MUTEPAPER × MY SEASIDE PARK",
+      "note": "原海报上所有信息（日期、地址、QR、主办方）全部删除，只留那句黄色手写和一张灰扑扑的复印浪。第二格是空白的下一张——一叠海报里永远有没人拿走的那几张。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged sand-toned paper with xerox softness and light mottling, no border, no mockup, flat orthographic scan. About 82% of the sheet is empty plain paper. Two small adjacent panels with a narrow gap between them, together occupying roughly 18% of the canvas, sitting in the lower-middle area, not touching the edges.\n\nPanel one: a small torn-paper clipping of a grey grainy photocopy showing one tiny lone surfer crouched on a board inside a breaking wave, low contrast, dot-broken, edges roughly torn. Panel two, slightly smaller and overlapping the first by a few millimetres: an empty grey sheet, blank, like the next unclaimed print in a stack.\n\nTypography: headline-as-object. Four handwritten Chinese characters are the LARGEST graphic element on the sheet — written with a thick, wet brush-pen, each character roughly the height of one third of the clipping panel, arranged in a bold tilted diagonal that runs across the top-right of panel one and spills onto the bare paper beside it. Below the panels, one short lowercase serif line in muted grey, small and quiet. Accent strategy: exactly ONE high-chroma hue — acid saturated yellow ink (#E8DE18) — used only for those four big handwritten characters. Every stroke must be thick, opaque and fully saturated yellow with a heavy loaded-brush weight; think of a bright yellow paint-marker signature, not a thin pen line. The yellow strokes together must cover about 2.2% of the whole canvas and about 30% of the two-panel cluster, and must be the first thing the eye finds at thumbnail size. Never grey, never thin, never pale, never pastel, never outlined. Print defects: xerox softness, letterpress bite on the serif line, slight misregistration of the grey clipping.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly these two strings, each appearing exactly once: \"有人跳海\" and \"someone jumped into the sea\". The Chinese must be exactly the four characters 有 人 跳 海 in that order. No other letters, no numbers, no dates, no QR code, no logo, no watermark, no extra captions, no duplicated words, no invented or garbled characters. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, seaside, nostalgic Japanese/Korean indie zine mood; matte absorbent paper, diffuse light, low-to-medium contrast, no hard shadow. Avoid: full-bleed scene, glossy exhibition flyer, commercial headline hierarchy, product ad, logo lockup, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text blocks.",
+      "series": "singles"
+    },
+    {
+      "id": 21,
+      "file": "img/21-the-cloud-ate-the-fire.jpeg",
+      "title": "the cloud ate the fire",
+      "title_zh": "云把火吃掉了",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "flat silhouette (single cumulus mass)",
+        "typography": "archive microtext with time/weather",
+        "accent": "chrome saturated yellow",
+        "texture": "aged paper mottling + ink bleed",
+        "mood": "solitude"
+      },
+      "accent_hex": "#FFBE0A",
+      "source": "photo — 火红的日落被一大团深色云压住，地平线只剩一条黄色亮带，下面是山与点灯的高楼",
+      "note": "照片里最强的不是红，是那团把红吃掉的云。于是云做成不透明的灰剪影，颜色只剩云底下那一条铬黄——一天里最后没被吃掉的部分。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged paper with heavy aged mottling, foxing specks and uneven tone, no border, no mockup, flat orthographic scan. About 85% of the sheet is empty plain paper. One small visual cluster occupying roughly 13% of the canvas, floating in the lower-left quadrant with a very large empty upper field.\n\nThe cluster is one flat silhouette of a single heavy cumulus cloud, cut as an opaque dark-grey paper shape with a slightly rough edge, printed low contrast. Directly under the cloud, one very thin horizontal ruled band the width of the cloud, like a horizon reduced to a printed rule.\n\nTypography: archive microtext in a small serif face — one short lowercase phrase set to the right of the cloud, and beneath it two tiny lines giving a time and a weather word. Accent strategy: exactly ONE high-chroma hue — chrome saturated yellow letterpress ink (#FFBE0A) — used only as that thin horizontal band under the cloud plus one small solid yellow rectangle at its left end, opaque and fully saturated, like the last strip of daylight left under a cloud mass. The yellow must occupy about 1.4% of the whole canvas and about 20% of the cluster and be clearly visible at thumbnail size; keep the cloud and text grey and never pale, fade or pastel the yellow. Print defects: aged paper mottling, ink bleed at the band ends, one-millimetre misregistration between cloud and band.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly: \"the cloud ate the fire\" and \"19:04\" and \"clear\". Do NOT render any descriptive, stylistic or technical word from these instructions as visible text. No other letters, no logo, no watermark, no extra captions, no misspellings.\n\nQuiet, solitary, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed sky, realistic sunset photograph, city skyline, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, gradient sky, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 22,
+      "file": "img/22-we-stood-under-the-sign.jpeg",
+      "title": "we stood under the sign",
+      "title_zh": "我们就站在那块牌子底下",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "old printed illustration (prohibition pictogram)",
+        "typography": "almost textless, tiny blurred caption",
+        "accent": "signal saturated red",
+        "texture": "letterpress ink bleed + soft motion blur",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#E4032E",
+      "source": "photo — 「NO SMOKING 嚴禁吸煙」告示牌前，两只手各夹着点着的香烟",
+      "note": "手要虚到几乎没有，牌子要清楚——不然就变成拍人。红只给禁止环，让那个「禁」字大声，而犯规的人小声。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged grey-beige paper with fibre texture and faint mottling, no border, no mockup, flat orthographic scan. About 86% of the sheet is empty plain paper. One small visual cluster occupying roughly 13% of the canvas, sitting in the upper-right area, with the lower two thirds of the sheet almost entirely empty.\n\nThe cluster is one small old printed pictogram: a plain circle enclosing a simplified cigarette, reproduced like a worn instructional label with soft edges and slight ink loss. Far below it, in the empty lower-left field, three tiny grey ghosted hairline shapes suggest thin cigarettes held up, printed so faintly they almost disappear — no hands, no fingers, no realistic anatomy.\n\nTypography: almost textless — two vertical Chinese characters pairs set very small beside the pictogram, and one short lowercase serif caption near the bottom edge of the empty field, with a soft motion blur on that caption only. Accent strategy: exactly ONE high-chroma hue — signal saturated red letterpress ink (#E4032E) — used only as the enclosing circle and its diagonal bar, a bold opaque red ring, fully saturated. The red must occupy about 1.6% of the whole canvas and about 22% of the cluster and be unmistakable at thumbnail size; keep the pictogram interior, the ghost shapes and all text grey, and never pale, fade or pastel the red. Print defects: letterpress ink bleed, xerox wear, slight misregistration of the red ring against the grey pictogram.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly: \"嚴禁吸煙\" and \"we stood under the sign\". Do NOT render any descriptive, stylistic or technical word from these instructions as visible text. No other letters, no numbers, no logo, no brand mark, no watermark, no extra captions, no misspelled or invented Chinese characters — the four characters must be exactly 嚴 禁 吸 煙.\n\nQuiet, slightly surreal, wry, diary-like Japanese/Korean indie zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, photograph of hands, realistic skin, bokeh, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 23,
+      "file": "img/23-someone-put-a-hat-on-the-lion.jpeg",
+      "title": "someone put a hat on the lion",
+      "title_zh": "有人给狮子戴了帽子",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "object specimen (grey film-photo lion cutout)",
+        "typography": "fragmented floating letters",
+        "accent": "vivid saturated kelly green",
+        "texture": "film grain + halftone speckle",
+        "mood": "childhood"
+      },
+      "accent_hex": "#00A34A",
+      "source": "photo — 夜里的金色狮子雕塑，头上戴着一顶红绿白条纹的针织帽",
+      "note": "把狮子从金色改成灰色底片，帽子放大到不合比例——玩笑的重点不在雕像有多贵，在于有人爬上去给它戴帽子这件小事。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged ivory paper with visible film grain and fine fibres, no border, no mockup, flat orthographic scan. About 86% of the sheet is empty plain paper. One isolated specimen occupying roughly 12% of the canvas, placed slightly right of centre in the middle band, with almost no supporting graphics.\n\nThe specimen is one small seated lion seen in profile, reproduced as a grainy grey film-photo cutout, low contrast and slightly soft, like a snapshot of a public sculpture clipped from an old magazine. On its head sits a big, thick, slouchy knitted winter cap that is comically oversized — the cap alone is nearly one third the height of the whole lion and clearly wider than its head. Nothing else: no bridge, no buildings, no ground, no pedestal.\n\nTypography: fragmented floating letters — one short lowercase serif phrase broken into three pieces drifting at different heights around the lion, letters slightly misaligned, printed muted grey and kept small so the cap stays dominant. Accent strategy: exactly ONE high-chroma hue — vivid saturated kelly-green risograph ink (#00A34A) — used as that oversized knitted cap, a large compact opaque green mass with a knit-ribbed edge, fully saturated all the way through with no grey shading inside it. The green must cover about 2.2% of the whole canvas and about 28% of the specimen cluster, and must be the single unmistakable colour event at thumbnail size. Keep the lion entirely grey with no gold, no yellow, no warm colour; never pale, fade or pastel the green. Print defects: film grain, halftone speckle in the shadows, half-millimetre misregistration of the green cap against the grey head.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly this one string, appearing exactly once: \"someone put a hat on the lion\". No other letters, no numbers, no logo, no watermark, no extra captions, no misspellings, no duplicated words. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, childhood, tender, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, night photograph, gold metal reflections, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cute cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 24,
+      "file": "img/24-the-ice-was-already-melting.jpeg",
+      "title": "the ice was already melting",
+      "title_zh": "冰早就在化了",
+      "recipe": {
+        "layout": "center-fragment",
+        "anchor": "object specimen pair (tumbler + bottle shoulder)",
+        "typography": "archive microtext with time/table no.",
+        "accent": "deep saturated porcelain cobalt",
+        "texture": "halftone degradation + ink bleed",
+        "mood": "night"
+      },
+      "accent_hex": "#1B3F9C",
+      "source": "photo — 黑色大理石桌上的 Macallan Harmony Collection、加冰威士忌杯、铜锅火锅",
+      "note": "刻意去掉品牌与火锅，只留一只杯、三块冰、一截瓶肩。全饱和留给瓶肩那块青花蓝标签——这一桌唯一安静的东西。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged warm-grey paper with coarse halftone speckle and mottling, no border, no mockup, flat orthographic scan. About 85% of the sheet is empty plain paper. One tiny central fragment occupying roughly 12% of the canvas, sitting at the optical centre with generous air all around.\n\nThe fragment is one small object specimen pair, printed like a worn mail-order catalogue illustration in degraded halftone grey: a short faceted tumbler holding three angular ice cubes, and beside it, smaller and slightly overlapped, the neck and shoulder of a squat bottle. No table, no room, no food, no people, no brand marks anywhere on the bottle.\n\nTypography: archive microtext in a small typewriter face — one short lowercase line set under the fragment, plus two very small lines to its right, one of them a time. Accent strategy: exactly ONE high-chroma hue — deep saturated porcelain cobalt-blue ink (#1B3F9C) — used only as a small opaque decorative label panel on the bottle shoulder, a compact solid cobalt rectangle carrying an illegible hairline pattern, fully saturated. The cobalt must occupy about 1.5% of the whole canvas and about 22% of the fragment cluster and be clearly visible at thumbnail size; keep the glass, ice and bottle grey and never pale, fade or pastel the cobalt. Print defects: halftone degradation, ink bleed at the panel edge, one-millimetre misregistration of the cobalt panel against the grey bottle.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly these three strings, each appearing exactly once: \"the ice was already melting\" and \"23:15\" and \"table 7\". No repeated words, no other letters, no brand name, no logo, no watermark, no extra captions, no misspellings. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, nocturnal, wry, diary-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, product photography, drinks advertisement, bottle hero shot, brand lockup, commercial headline, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 25,
+      "file": "img/25-one-cloud-stayed.jpeg",
+      "title": "one cloud stayed",
+      "title_zh": "只有一朵云留下来",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "torn-paper clipping (single cloud mass)",
+        "typography": "almost textless, only a tiny caption",
+        "accent": "vivid saturated flamingo pink",
+        "texture": "risograph grain + misregistration",
+        "mood": "solitude"
+      },
+      "accent_hex": "#FF5F7E",
+      "source": "photo — 粉紫与蓝的黄昏天空，右边一大团深色云，没有地面",
+      "note": "天空最容易做成渐变壁纸，所以整片天都不要，只从里面撕下那朵云贴在白纸上。粉色压在云的左下沿——那是天空还剩的最后一点颜色。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cool off-white paper with risograph grain and fibre speck, no border, no mockup, flat orthographic scan. About 88% of the sheet is empty plain paper. One irregular torn-paper shape occupying roughly 10% of the canvas, placed in the upper-middle area, tilted a few degrees, not touching the edges.\n\nThe shape is one roughly torn clipping of grey grainy paper carrying a soft dark cloud mass, low contrast, dot-broken, its torn fibrous edge visible on all sides — a single cloud clipped out of a sky and pasted onto an empty sheet. Nothing else is illustrated: no horizon, no ground, no gradient sky background.\n\nTypography: almost textless — one very small lowercase serif caption set just below the torn clipping, and nothing more. Accent strategy: exactly ONE high-chroma hue — vivid saturated flamingo-pink risograph ink (#FF5F7E) — used as one compact opaque pink shape lit along the lower-left edge of the cloud, reading as the last colour in the sky, fully saturated. The pink must occupy about 1.5% of the whole canvas and about 25% of the clipping cluster and be clearly visible at thumbnail size; keep the cloud grey and never pale, fade or pastel the pink. Print defects: risograph grain, one-millimetre misregistration between the pink shape and the grey cloud, ink bleed at the torn edge.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly this one string, appearing exactly once: \"one cloud stayed\". No repeated words, no other letters, no numbers, no logo, no watermark, no extra captions, no misspellings. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, solitude, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed sky, realistic sunset photograph, smooth colour gradient, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 26,
+      "file": "img/26-the-day-drained-into-the-pool.jpeg",
+      "title": "the day drained into the pool",
+      "title_zh": "白天流进了池子里",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "flat silhouette (one palm tree)",
+        "typography": "short phrase pressed against image edge",
+        "accent": "saturated tangerine orange",
+        "texture": "aged paper mottling + letterpress bite",
+        "mood": "seaside"
+      },
+      "accent_hex": "#F5720B",
+      "source": "photo — 椰子树剪影逆着橙蓝落日，无边泳池与不锈钢扶梯",
+      "note": "度假照最怕变旅游广告，所以删到只剩一棵树。橙色是躺在树脚下的一块方块——一天最后的光被水收起来的形状。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged sand-grey paper with aged mottling and fine fibres, no border, no mockup, flat orthographic scan. About 87% of the sheet is empty plain paper. One isolated specimen occupying roughly 11% of the canvas, standing in the lower-middle area, with an enormous empty field above it and no supporting graphics.\n\nThe specimen is one single slender palm tree rendered as a flat dark-grey paper silhouette with a slightly rough cut edge, printed low contrast — one tree only, no group, no buildings, no sky, no ground line, no water, no pool.\n\nTypography: one short lowercase serif phrase pressed tight against the right edge of the palm silhouette, letters slightly bitten by the ink; no other text. Accent strategy: exactly ONE high-chroma hue — saturated tangerine-orange letterpress ink (#F5720B) — used as one small solid tangerine rectangle lying flat at the base of the trunk, like the last of the daylight collected in a pool of water, fully saturated and opaque. The tangerine must occupy about 1.6% of the whole canvas and about 22% of the specimen cluster and be clearly visible at thumbnail size; keep the palm grey and never pale, fade or pastel the tangerine. Print defects: aged paper mottling, letterpress bite, half-millimetre misregistration of the orange rectangle against a faint grey ghost of itself.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly this one string, appearing exactly once: \"the day drained into the pool\". No repeated words, no other letters, no numbers, no logo, no watermark, no extra captions, no misspellings. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, seaside, afternoon-into-evening, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, travel photograph, resort advertising, tropical postcard, gradient sunset sky, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 27,
+      "file": "img/27-one-letter-for-a-whole-year.jpeg",
+      "title": "one letter for a whole year",
+      "title_zh": "一个字母代表一整年",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "torn/photocopied clipping + letter-as-object",
+        "typography": "text inside a color block or cutout",
+        "accent": "saturated mango gold",
+        "texture": "xerox softness + ink bleed",
+        "mood": "memory"
+      },
+      "accent_hex": "#F0A308",
+      "source": "photo — 生日蛋糕，芒果淋面、巧克力牌写 Happy Birthday、糖片字母 B、Bulgari 椰子与皇冠贴纸",
+      "note": "祝福语、皇冠、闪光全部删掉，只留一块灰蛋糕、一条芒果色淋面，和另一格里孤零零的大写 B——一年里被记住的往往只有一个字母。",
+      "prompt": "Tall vertical 3:5 paper poster, full-frame aged cream paper with soft xerox wear and light mottling, no border, no mockup, flat orthographic scan. About 84% of the sheet is empty plain paper. Two small panels of unequal size sitting side by side with a narrow gap, together occupying roughly 16% of the canvas, placed in the lower-middle band, not touching the edges.\n\nLeft panel: a small grey photocopied clipping of one plain round cake seen from the side, low contrast, dot-broken, edges softened by the copier, with a tiny thin plaque leaning against it. Right panel, narrower and taller: a blank grey rectangle carrying a single large printed capital letter B, set in a rough serif face with letterpress bite, the letter reading as an object rather than as a word.\n\nTypography: text inside the panels only — one short lowercase serif line running along the bottom of the left panel, and the single capital B in the right panel. Accent strategy: exactly ONE high-chroma hue — saturated mango-gold yellow-orange ink (#F0A308) — used only as the glaze on top of the cake, one compact opaque mango-coloured band across the cake's crown, fully saturated. The mango yellow-orange must occupy about 1.5% of the whole canvas and about 20% of the cluster and be clearly visible at thumbnail size; keep the cake body, plaque, letter and both panels grey, and never pale, fade or pastel the accent. Print defects: xerox softness, ink bleed on the capital B, one-millimetre misregistration of the glaze band against the grey cake.\n\nSTRICT TEXT WHITELIST — the ONLY text allowed anywhere in the image is exactly these two strings, each appearing exactly once: \"one letter for a whole year\" and the single capital letter \"B\". No repeated words, no other letters, no numbers, no birthday greeting, no crown, no logo, no brand name, no watermark, no extra captions, no misspellings. Do NOT render any descriptive, stylistic or technical word from these instructions as visible text.\n\nQuiet, tender, childhood, memory-like Japanese/Korean minimal editorial zine mood; matte absorbent paper, diffuse light, low contrast, no hard shadow. Avoid: full-bleed scene, food photography, dessert advertisement, party decoration, glitter, candles, bokeh, commercial headline, product ad, logo, CTA, glossy mockup, clean white UI, cinematic lighting, 3D rendering, neon, cartoon, dense collage, many colours, long readable text.",
+      "series": "singles"
+    },
+    {
+      "id": 28,
+      "series": "seasons",
+      "file": "img/28-seasons-spring.jpeg",
+      "title": "seasons 01 — spring",
+      "title_zh": "四季 01 · 春",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "landscape fragment",
+        "typography": "letterspaced serif title with index line",
+        "accent": "one solid square colour chop",
+        "texture": "collotype grain with misregistration",
+        "mood": "spring"
+      },
+      "accent_hex": "#EE4C7C",
+      "source": "series — Seasons，四张一套；照片由模型生成，版面由 tools/seasons_compose.py 合成",
+      "note": "一棵树站在空地上，一年只被拍四次。春这张是它最满的时候——花把枝全遮住了，反而看不见树本身。",
+      "prompt": "Series constitution — identical on all four sheets, only the season moves.\n\nSHEET. Tall vertical sheet of aged oat-white paper, warm pale ivory, fine cotton-rag fibre and faint even mottling, flat scanner-bed lighting, no border and no mockup. The same physical sheet is used for every poster in the series. About 82% of the sheet is plain empty paper.\n\nPLATE. One perfect square photographic plate, 56% of the sheet width, horizontally centred, its top edge one fifth of the way down the sheet. Inside it: one solitary broad-crowned deciduous tree standing alone in an open flat meadow, dead centre, eye level, middle distance, horizon one third up from the plate's bottom edge, empty sky above the crown, nothing else in the scene. Soft-focus pictorialist photograph in the manner of an early 1900s collotype, layered multiple exposure so the tree and grass are slightly doubled and smeared, deliberately low contrast with no deep blacks and no bright whites. Warm neutral grey-sepia duotone, completely colourless — the same ink ramp on all four sheets. The plate's edge bleeds softly into the paper.\n\nTYPE. Below the plate, in one muted warm grey: the season word in widely letterspaced serif capitals, then a single Chinese character, then a hairline rule exactly the width of the plate, then a tiny letterspaced index line left-aligned to the plate's left edge.\n\nACCENT. Exactly one high-chroma element: a solid square colour chop resting on the right end of the hairline rule, its right edge flush with the plate's right edge, occupying 1.6% of the whole sheet. A faint grey ghost of the same square sits a half-millimetre off register behind it. No text is ever printed on top of the chop.\n\nTEXT WHITELIST. The only strings permitted anywhere on the sheet: the season word, the single Chinese character, and the index line. No caption, no signature, no username, no social-media handle, no watermark, no date stamp.\n\nSEASON VARIABLE — the canopy is in full blossom, a dense soft cloud of petals that completely hides the branches, a few loose petals drifting near the crown. Word SPRING, character 春, index SEASONS 01 / 04, chop cherry pink #EE4C7C.",
+      "role": "cover",
+      "season": "spring",
+      "plate": "plates/28-seasons-spring.jpeg"
+    },
+    {
+      "id": 29,
+      "series": "seasons",
+      "file": "img/29-seasons-summer.jpeg",
+      "title": "seasons 02 — summer",
+      "title_zh": "四季 02 · 夏",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "landscape fragment",
+        "typography": "letterspaced serif title with index line",
+        "accent": "one solid square colour chop",
+        "texture": "collotype grain with misregistration",
+        "mood": "summer"
+      },
+      "accent_hex": "#12A150",
+      "source": "series — Seasons，四张一套；照片由模型生成，版面由 tools/seasons_compose.py 合成",
+      "note": "同一棵树，最重的时候。叶子密到发黑，地上积了一摊影子。四张里只有这张的底片是压着的。",
+      "prompt": "Series constitution — identical on all four sheets, only the season moves.\n\nSHEET. Tall vertical sheet of aged oat-white paper, warm pale ivory, fine cotton-rag fibre and faint even mottling, flat scanner-bed lighting, no border and no mockup. The same physical sheet is used for every poster in the series. About 82% of the sheet is plain empty paper.\n\nPLATE. One perfect square photographic plate, 56% of the sheet width, horizontally centred, its top edge one fifth of the way down the sheet. Inside it: one solitary broad-crowned deciduous tree standing alone in an open flat meadow, dead centre, eye level, middle distance, horizon one third up from the plate's bottom edge, empty sky above the crown, nothing else in the scene. Soft-focus pictorialist photograph in the manner of an early 1900s collotype, layered multiple exposure so the tree and grass are slightly doubled and smeared, deliberately low contrast with no deep blacks and no bright whites. Warm neutral grey-sepia duotone, completely colourless — the same ink ramp on all four sheets. The plate's edge bleeds softly into the paper.\n\nTYPE. Below the plate, in one muted warm grey: the season word in widely letterspaced serif capitals, then a single Chinese character, then a hairline rule exactly the width of the plate, then a tiny letterspaced index line left-aligned to the plate's left edge.\n\nACCENT. Exactly one high-chroma element: a solid square colour chop resting on the right end of the hairline rule, its right edge flush with the plate's right edge, occupying 1.6% of the whole sheet. A faint grey ghost of the same square sits a half-millimetre off register behind it. No text is ever printed on top of the chop.\n\nTEXT WHITELIST. The only strings permitted anywhere on the sheet: the season word, the single Chinese character, and the index line. No caption, no signature, no username, no social-media handle, no watermark, no date stamp.\n\nSEASON VARIABLE — the canopy is in heaviest full leaf, its densest and darkest mass of the year, a pool of shadow gathered on the grass beneath. Word SUMMER, character 夏, index SEASONS 02 / 04, chop grass green #12A150.",
+      "role": "cover",
+      "season": "summer",
+      "plate": "plates/29-seasons-summer.jpeg"
+    },
+    {
+      "id": 30,
+      "series": "seasons",
+      "file": "img/30-seasons-autumn.jpeg",
+      "title": "seasons 03 — autumn",
+      "title_zh": "四季 03 · 秋",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "landscape fragment",
+        "typography": "letterspaced serif title with index line",
+        "accent": "one solid square colour chop",
+        "texture": "collotype grain with misregistration",
+        "mood": "autumn"
+      },
+      "accent_hex": "#E8541C",
+      "source": "series — Seasons，四张一套；照片由模型生成，版面由 tools/seasons_compose.py 合成",
+      "note": "叶子掉了四分之三，骨架露出来了。这是唯一一张能看清这棵树长什么样的——它得先空掉，你才认得它。",
+      "prompt": "Series constitution — identical on all four sheets, only the season moves.\n\nSHEET. Tall vertical sheet of aged oat-white paper, warm pale ivory, fine cotton-rag fibre and faint even mottling, flat scanner-bed lighting, no border and no mockup. The same physical sheet is used for every poster in the series. About 82% of the sheet is plain empty paper.\n\nPLATE. One perfect square photographic plate, 56% of the sheet width, horizontally centred, its top edge one fifth of the way down the sheet. Inside it: one solitary broad-crowned deciduous tree standing alone in an open flat meadow, dead centre, eye level, middle distance, horizon one third up from the plate's bottom edge, empty sky above the crown, nothing else in the scene. Soft-focus pictorialist photograph in the manner of an early 1900s collotype, layered multiple exposure so the tree and grass are slightly doubled and smeared, deliberately low contrast with no deep blacks and no bright whites. Warm neutral grey-sepia duotone, completely colourless — the same ink ramp on all four sheets. The plate's edge bleeds softly into the paper.\n\nTYPE. Below the plate, in one muted warm grey: the season word in widely letterspaced serif capitals, then a single Chinese character, then a hairline rule exactly the width of the plate, then a tiny letterspaced index line left-aligned to the plate's left edge.\n\nACCENT. Exactly one high-chroma element: a solid square colour chop resting on the right end of the hairline rule, its right edge flush with the plate's right edge, occupying 1.6% of the whole sheet. A faint grey ghost of the same square sits a half-millimetre off register behind it. No text is ever printed on top of the chop.\n\nTEXT WHITELIST. The only strings permitted anywhere on the sheet: the season word, the single Chinese character, and the index line. No caption, no signature, no username, no social-media handle, no watermark, no date stamp.\n\nSEASON VARIABLE — the canopy is three-quarters stripped, the bare branch armature showing as an open lattice with sparse ragged clumps of leaves at the branch ends, leaves caught mid-fall and drifted on the grass. Word AUTUMN, character 秋, index SEASONS 03 / 04, chop vermilion #E8541C.",
+      "role": "cover",
+      "season": "autumn",
+      "plate": "plates/30-seasons-autumn.jpeg"
+    },
+    {
+      "id": 31,
+      "series": "seasons",
+      "file": "img/31-seasons-winter.jpeg",
+      "title": "seasons 04 — winter",
+      "title_zh": "四季 04 · 冬",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "landscape fragment",
+        "typography": "letterspaced serif title with index line",
+        "accent": "one solid square colour chop",
+        "texture": "collotype grain with misregistration",
+        "mood": "winter"
+      },
+      "accent_hex": "#00A9DE",
+      "source": "series — Seasons，四张一套；照片由模型生成，版面由 tools/seasons_compose.py 合成",
+      "note": "全空了，只剩一团枝条的网。雾把远处的树线吃掉，纸和照片几乎连成一片。四分之四，一年到头。",
+      "prompt": "Series constitution — identical on all four sheets, only the season moves.\n\nSHEET. Tall vertical sheet of aged oat-white paper, warm pale ivory, fine cotton-rag fibre and faint even mottling, flat scanner-bed lighting, no border and no mockup. The same physical sheet is used for every poster in the series. About 82% of the sheet is plain empty paper.\n\nPLATE. One perfect square photographic plate, 56% of the sheet width, horizontally centred, its top edge one fifth of the way down the sheet. Inside it: one solitary broad-crowned deciduous tree standing alone in an open flat meadow, dead centre, eye level, middle distance, horizon one third up from the plate's bottom edge, empty sky above the crown, nothing else in the scene. Soft-focus pictorialist photograph in the manner of an early 1900s collotype, layered multiple exposure so the tree and grass are slightly doubled and smeared, deliberately low contrast with no deep blacks and no bright whites. Warm neutral grey-sepia duotone, completely colourless — the same ink ramp on all four sheets. The plate's edge bleeds softly into the paper.\n\nTYPE. Below the plate, in one muted warm grey: the season word in widely letterspaced serif capitals, then a single Chinese character, then a hairline rule exactly the width of the plate, then a tiny letterspaced index line left-aligned to the plate's left edge.\n\nACCENT. Exactly one high-chroma element: a solid square colour chop resting on the right end of the hairline rule, its right edge flush with the plate's right edge, occupying 1.6% of the whole sheet. A faint grey ghost of the same square sits a half-millimetre off register behind it. No text is ever printed on top of the chop.\n\nTEXT WHITELIST. The only strings permitted anywhere on the sheet: the season word, the single Chinese character, and the index line. No caption, no signature, no username, no social-media handle, no watermark, no date stamp.\n\nSEASON VARIABLE — the tree is completely bare, only a fine lattice of empty twigs in the same crown silhouette, low fog across the field swallowing the distant treeline, the whole plate hazier and paler. Word WINTER, character 冬, index SEASONS 04 / 04, chop ice cyan #00A9DE.",
+      "role": "cover",
+      "season": "winter",
+      "plate": "plates/31-seasons-winter.jpeg"
+    },
+    {
+      "id": 32,
+      "series": "seasons",
+      "role": "interior",
+      "season": "spring",
+      "file": "img/32-spring-it-happened-without-us.jpeg",
+      "plate": "plates/32-spring-it-happened-without-us.jpeg",
+      "title": "it happened without us",
+      "title_zh": "没人看着它也开了",
+      "recipe": {
+        "layout": "center-fragment",
+        "anchor": "tiny faded photo",
+        "typography": "almost textless, only a tiny caption",
+        "accent": "magenta-pink",
+        "texture": "film grain photo",
+        "mood": "quiet"
+      },
+      "accent_hex": "#E0357B",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p02.jpeg",
+      "note": "花开这件事跟观众没关系。照片被印得几乎褪成灰，只有一条洋红色的印刷色条压在上面，像校色条——提醒你这是一张被复制过的图，不是现场。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 86% of the sheet is plain empty paper. One small visual cluster occupies roughly 11% of the canvas, sitting slightly above the middle of the sheet, well away from every edge.\n\nThe cluster is the attached photograph reproduced very small, as a single rectangular print about one quarter of the sheet width, with a soft photocopied edge that sinks into the paper. Keep its subject exactly as given — one blossoming tree standing alone in a meadow under a wide sky — but printed faint and grainy, drained almost to grey, like a photograph reprinted in an old journal.\n\nUnder the photograph, one line of small serif type. The single high-chroma element is a solid, fully saturated magenta-pink risograph rectangle laid across the lower third of the photograph like a printer's colour bar, about 1.6% of the whole sheet and about 20% of the cluster, opaque and clean-edged, misregistered a half-millimetre from the photo below it. Everything else on the sheet is paper tone and grey. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"it happened without us\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 33,
+      "series": "seasons",
+      "role": "interior",
+      "season": "spring",
+      "file": "img/33-spring-the-tree-turned-into-weather.jpeg",
+      "plate": "plates/33-spring-the-tree-turned-into-weather.jpeg",
+      "title": "the tree turned into weather",
+      "title_zh": "树变成了天气",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "torn-paper clipping",
+        "typography": "fragmented floating letters",
+        "accent": "cobalt blue",
+        "texture": "risograph grain",
+        "mood": "childhood"
+      },
+      "accent_hex": "#1B4FD8",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p03.jpeg",
+      "note": "白花团糊成一片，已经分不清是树还是云。撕下来的一角压着一块钴蓝——那是唯一还确定的东西。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 84% of the sheet is plain empty paper. One small visual cluster occupies roughly 13% of the canvas, placed in the upper-middle area, clear of all four edges.\n\nThe cluster is the attached photograph torn out of a magazine — an irregular hand-torn paper shape with a visible white fibrous tear along its edge, laid slightly crooked on the sheet. Keep its subject exactly as given: a huge soft mass of white blossom dissolving into the sky so the tree reads more like cloud than like a tree. Printed with coarse risograph grain, low contrast, nearly grey.\n\nA few small serif letters float loose around the torn clipping, broken apart and drifting, not set on a line. The single high-chroma element is a solid, fully saturated cobalt-blue risograph shape torn from the same magazine and overlapping the lower-left corner of the clipping, about 1.8% of the whole sheet and about 22% of the cluster, opaque and undiluted, printed slightly off register. No other colour. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the tree turned into weather\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 34,
+      "series": "seasons",
+      "role": "interior",
+      "season": "spring",
+      "file": "img/34-spring-almost-nothing-for-a-week.jpeg",
+      "plate": "plates/34-spring-almost-nothing-for-a-week.jpeg",
+      "title": "almost nothing, for a week",
+      "title_zh": "几乎什么都没有，持续一周",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "tiny faded photo",
+        "typography": "archive microtext with date and weather",
+        "accent": "violet",
+        "texture": "xerox softness",
+        "mood": "afternoon"
+      },
+      "accent_hex": "#6B31C9",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p09.jpeg",
+      "note": "花期短得像什么都没发生。左下角一小块，上面 88% 全是空纸——空的部分才是主角。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 88% of the sheet is plain empty paper, almost all of it across the top. One small visual cluster occupies roughly 9% of the canvas, floating in the lower-left quadrant, not touching any edge. The emptiness is the subject: keep the sheet overwhelmingly bare.\n\nThe cluster is the attached photograph reproduced as a small photocopied print about one fifth of the sheet width and small on the page, its edges gone soft and its blacks gone grey the way a third-generation xerox looks. Keep its subject exactly as given: one pale pink blossoming tree standing alone in an open field.\n\nTo the right of the photograph, three lines of very small serif archive microtext, semi-legible, reading like a specimen label with a date and a weather note. The single high-chroma element is a violet printed bar sitting directly beneath the photograph, the same width as the photograph and only about one fifth of the photograph's height — a compact solid block, clearly thicker than a rule but SMALL on the sheet, covering no more than about 1.5% of the whole sheet and about 20% of the small cluster. It is flat opaque spot-colour violet, one uniform vivid tone edge to edge, fully saturated and dense, nothing showing through it: no paper texture, no halftone, no transparency, no gradient. Everything else is grey. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"almost nothing, for a week\" / \"APR 06  15:40  overcast, no wind\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 35,
+      "series": "seasons",
+      "role": "interior",
+      "season": "spring",
+      "file": "img/35-spring-the-field-kept-the-small-ones.jpeg",
+      "plate": "plates/35-spring-the-field-kept-the-small-ones.jpeg",
+      "title": "the field kept the small ones",
+      "title_zh": "田野把小的那些留下了",
+      "recipe": {
+        "layout": "dot-orbit",
+        "anchor": "object specimen",
+        "typography": "diagonal scattered words",
+        "accent": "lemon yellow",
+        "texture": "halftone degradation",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#F5C400",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p06.jpeg",
+      "note": "一整片蓝紫里只挑出一朵，其余的降级成印刷网点。黄色不是加上去的强调，黄色就是那朵花本身。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 85% of the sheet is plain empty paper. One small visual cluster occupies roughly 12% of the canvas, centred slightly low on the sheet, well inside all four edges.\n\nThe cluster is one single dandelion flower lifted out of the attached photograph and presented as a pressed botanical specimen, small and isolated on the paper, printed in coarse degraded halftone so the petals break into visible dots. A faint ring of tiny grey printed dots orbits it at a distance, like the other flowers in the field reduced to registration marks.\n\nA handful of small serif words run diagonally across the lower right, scattered rather than set in a line. The single high-chroma element is the flower head itself, printed in solid, fully saturated lemon-yellow ink — opaque and vivid, not pale and not washed out — about 1.5% of the whole sheet and about 20% of the cluster. The orbiting dots, the type and the paper stay grey. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the field kept the small ones\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 36,
+      "series": "seasons",
+      "role": "interior",
+      "season": "summer",
+      "file": "img/36-summer-the-water-never-stopped-to-look.jpeg",
+      "plate": "plates/36-summer-the-water-never-stopped-to-look.jpeg",
+      "title": "the water never stopped to look",
+      "title_zh": "水没停下来看一眼",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "tiny faded photo",
+        "typography": "short phrase pressed against the image edge",
+        "accent": "cyan",
+        "texture": "scan noise and paper fibers",
+        "mood": "summer"
+      },
+      "accent_hex": "#00A6C8",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p04.jpeg",
+      "note": "瀑布本身被一块青色实心块盖住——水是唯一有颜色的东西，也是唯一不肯停的东西。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 85% of the sheet is plain empty paper, most of it across the bottom half. One small visual cluster occupies roughly 12% of the canvas, placed in the upper-right area, clear of the edges.\n\nThe cluster is the attached photograph reproduced as a small vertical print about one quarter of the sheet width, low contrast and grainy with visible scan noise and paper fibre over it. Keep its subject exactly as given: a tall waterfall dropping in a single white column into a pale pool, dark trees crowding both sides.\n\nOne short line of small serif type is pressed hard against the left edge of the photograph, so tight that the last letters almost touch the print. The single high-chroma element is a solid, fully saturated cyan block printed directly over the falling water, a clean opaque rectangle that turns the waterfall itself into colour, about 1.7% of the whole sheet and about 21% of the cluster. Nothing else is coloured. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the water never stopped to look\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 37,
+      "series": "seasons",
+      "role": "interior",
+      "season": "summer",
+      "file": "img/37-summer-still-going-nobody-near.jpeg",
+      "plate": "plates/37-summer-still-going-nobody-near.jpeg",
+      "title": "still going, nobody near",
+      "title_zh": "还在喷，附近没有人",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "object specimen",
+        "typography": "almost textless, only a tiny caption",
+        "accent": "tomato red",
+        "texture": "letterpress ink bleed",
+        "mood": "afternoon"
+      },
+      "accent_hex": "#E03A24",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p11.jpeg",
+      "note": "把喷泉从公园里抠出来，单独放在空纸上。水池换成一枚红色实心圆——机器还在运转，观众早就走了。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 88% of the sheet is plain empty paper. One small visual cluster occupies roughly 10% of the canvas, standing alone in the middle of the sheet with a great deal of air above and below it.\n\nThe cluster is the stone fountain from the attached photograph, cut out from its background and presented as one isolated specimen on bare paper — a three-tiered basin fountain, small, printed as a soft grey letterpress illustration with visible ink bleed at the edges of the stone. No park, no trees, no people, no ground: the object floats on the paper by itself.\n\nOne tiny serif caption sits well below the object, small enough to read as a museum label. The single high-chroma element is a solid, fully saturated tomato-red disc printed at the base of the fountain where the water would pool, opaque and slightly bled into the paper fibre, a large disc about as wide as the widest basin of the fountain, about 2.2% of the whole sheet and about 24% of the cluster, vivid enough to read as a colour event at thumbnail size. Nothing else carries colour. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"still going, nobody near\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 38,
+      "series": "seasons",
+      "role": "interior",
+      "season": "summer",
+      "file": "img/38-summer-one-tree-stayed-green-longer.jpeg",
+      "plate": "plates/38-summer-one-tree-stayed-green-longer.jpeg",
+      "title": "one tree stayed green longer",
+      "title_zh": "有一棵绿得比别的久",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "tiny faded photo beside a solid colour block",
+        "typography": "text inside the colour block",
+        "accent": "pear green",
+        "texture": "aged paper mottling",
+        "mood": "quiet"
+      },
+      "accent_hex": "#5FA80F",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p14.jpeg",
+      "note": "左边是照片里那棵树的灰印，右边是一块纯绿。文字反白压在绿块里——颜色被从照片里抽出来，单独放到旁边。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 83% of the sheet is plain empty paper. One small visual cluster occupies roughly 14% of the canvas, sitting just below the middle of the sheet, away from all edges.\n\nThe cluster is two small panels side by side with a narrow gap between them. The left panel is the attached photograph reproduced small and grey and grainy — keep its subject exactly as given: one slender birch in full leaf standing in front of a darker treeline, grass in front of it. The right panel is the same height but narrower.\n\nThe right panel is the single high-chroma element: a solid, fully saturated pear-green printed block, opaque and even, about 2.0% of the whole sheet and about 24% of the cluster, with one short line of small serif type reversed out of it in the paper colour. The photograph, the gap and the rest of the sheet stay grey and paper-toned. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"one tree stayed green longer\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 39,
+      "series": "seasons",
+      "role": "interior",
+      "season": "summer",
+      "file": "img/39-summer-the-sky-pressed-down.jpeg",
+      "plate": "plates/39-summer-the-sky-pressed-down.jpeg",
+      "title": "the sky pressed down",
+      "title_zh": "天压下来了",
+      "recipe": {
+        "layout": "type-led",
+        "anchor": "flat silhouette",
+        "typography": "headline-as-object with rough letterpress",
+        "accent": "ultramarine",
+        "texture": "risograph grain",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#2331B8",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p13.jpeg",
+      "note": "这张反过来：字是主角，图退成一个黑色团块。群青的字压在灌木上方——天不是画出来的，是排出来的。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 82% of the sheet is plain empty paper. One visual cluster occupies roughly 15% of the canvas, sitting across the middle band of the sheet with clear paper above and below.\n\nTypography is the main object here and the image is secondary. Beneath the type sits one small flat black silhouette taken from the attached photograph: a single low round bush alone on flat ground, reduced to a solid dark shape with no interior detail, no sky, no trees behind it.\n\nThe phrase is set large for this poster in rough letterpress serif capitals, ink-heavy and slightly broken, sitting directly above the silhouette and behaving like an object rather than a caption. The single high-chroma element is that headline itself, printed in solid, fully saturated ultramarine ink, opaque and undiluted, about 2.1% of the whole sheet and about 26% of the cluster. The silhouette and the paper stay grey. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"THE SKY PRESSED DOWN\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 40,
+      "series": "seasons",
+      "role": "interior",
+      "season": "autumn",
+      "file": "img/40-autumn-it-was-already-leaving.jpeg",
+      "plate": "plates/40-autumn-it-was-already-leaving.jpeg",
+      "title": "it was already leaving",
+      "title_zh": "它已经在走了",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "object specimen",
+        "typography": "archive microtext with date and weather",
+        "accent": "orange",
+        "texture": "film grain photo",
+        "mood": "solitude"
+      },
+      "accent_hex": "#E8681C",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p10.jpeg",
+      "note": "蒲公英絮是这 14 张里唯一自带「秋」的东西——不是颜色变了，是结构在散。橙色方块放在它背后，像它正在离开的那个位置。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 87% of the sheet is plain empty paper. One small visual cluster occupies roughly 10% of the canvas, placed a little above centre, with a large empty field of paper beneath it.\n\nThe cluster is one dandelion seed head from the attached photograph, lifted out and presented as a single specimen on bare paper — the round grey sphere of seeds on its long thin stem, printed with fine film grain, soft and almost transparent at the edges where the seeds are coming loose. A few seeds have already detached and drift away to one side. No field, no background, no other plants.\n\nTwo lines of very small serif archive microtext sit low and to one side, semi-legible, like a herbarium slip. The single high-chroma element is a solid, fully saturated orange printed square sitting behind the seed head and offset from it, so the grey sphere overlaps the colour, about 1.6% of the whole sheet and about 20% of the cluster, opaque and clean-edged. No other colour anywhere. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"it was already leaving\" / \"SEP 21  17:05  dry\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 41,
+      "series": "seasons",
+      "role": "interior",
+      "season": "autumn",
+      "file": "img/41-autumn-the-colour-started-to-rust.jpeg",
+      "plate": "plates/41-autumn-the-colour-started-to-rust.jpeg",
+      "title": "the colour started to rust",
+      "title_zh": "颜色开始生锈",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "torn-paper clipping",
+        "typography": "low-contrast grey ghost text",
+        "accent": "cyan",
+        "texture": "halftone degradation",
+        "mood": "memory"
+      },
+      "accent_hex": "#00A0B4",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p07.jpeg",
+      "note": "花还在，但网点已经把颜色拆散了。右边压一条冷青——用一个不属于这个季节的颜色，把「褪」这件事标出来。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 84% of the sheet is plain empty paper. One small visual cluster occupies roughly 13% of the canvas, placed just left of centre and a little low, clear of every edge.\n\nThe cluster is two overlapping torn paper clippings. The larger one is the attached photograph — keep its subject exactly as given: a broad tree covered in dusty mauve-red blossom over green grass — printed in coarse degraded halftone with every trace of colour removed: no green grass, no mauve blossom, no blue sky survives — the whole clipping is grey newsprint dots and nothing else. The smaller clipping behind it is blank torn paper, slightly darker, showing only along one edge.\n\nOne line of low-contrast grey ghost type sits on the bare paper just below the torn edge, faint enough to be almost lost but never printed on top of the clipping. The single high-chroma element is a solid, fully saturated cyan printed bar running the full height of the right edge of the larger clipping, wide and opaque and cold against the grey halftone, about 2.2% of the whole sheet and about 24% of the cluster. It is the only colour anywhere on the sheet. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the colour started to rust\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 42,
+      "series": "seasons",
+      "role": "interior",
+      "season": "autumn",
+      "file": "img/42-autumn-too-much-of-it-at-once.jpeg",
+      "plate": "plates/42-autumn-too-much-of-it-at-once.jpeg",
+      "title": "too much of it at once",
+      "title_zh": "一次给得太多了",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "abstract texture window",
+        "typography": "fragmented floating letters",
+        "accent": "lemon yellow",
+        "texture": "xerox softness",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#EFC000",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p08.jpeg",
+      "note": "凑得太近，花变成了没有主体的花纹。开得过头和烂掉之间只差几天，这张卡在那几天里。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 85% of the sheet is plain empty paper. One small visual cluster occupies roughly 12% of the canvas, placed in the upper-left area, well inside the edges.\n\nThe cluster is an irregular organic paper cutout — a torn window shape with soft photocopied edges — and inside that window is a tight crop of the attached photograph used as pure texture rather than as a scene: the dense mass of small dark blossom, so close in that no tree, no sky and no horizon can be read, only an all-over pattern. Printed soft and grey with xerox wear.\n\nSmall serif letters float free around the cutout, broken apart and drifting, never forming a straight line. The single high-chroma element is a solid, fully saturated lemon-yellow shape torn to the same organic language as the window and butting against its lower edge, opaque and vivid, about 1.7% of the whole sheet and about 21% of the cluster. Everything else is grey. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"too much of it at once\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 43,
+      "series": "seasons",
+      "role": "interior",
+      "season": "winter",
+      "file": "img/43-winter-the-fog-took-the-garden.jpeg",
+      "plate": "plates/43-winter-the-fog-took-the-garden.jpeg",
+      "title": "the fog took the garden",
+      "title_zh": "雾把花园收走了",
+      "recipe": {
+        "layout": "center-fragment",
+        "anchor": "tiny faded photo",
+        "typography": "short phrase pressed against the image edge",
+        "accent": "tomato red",
+        "texture": "aged paper mottling",
+        "mood": "solitude"
+      },
+      "accent_hex": "#D93A2B",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p01.jpeg",
+      "note": "照片淡到快要散掉，红色方块却硬得像钉子，钉在纸上。雾能吃掉花园，吃不掉油墨。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 87% of the sheet is plain empty paper. One small visual cluster occupies roughly 10% of the canvas, sitting dead centre with a wide margin of empty paper on every side.\n\nThe cluster is the attached photograph reproduced very small, about one fifth of the sheet width, faded almost to nothing so the image is barely holding together. Keep its subject exactly as given: an ornamental tiered fountain standing in thick haze with the hedge behind it dissolving away. Printed pale and soft with aged paper mottling showing through the image.\n\nOne short line of small serif type is pressed against the bottom edge of the photograph, touching it. The single high-chroma element is a solid, fully saturated tomato-red printed square placed just outside the top-right corner of the photograph, sitting on bare paper and not overlapping the image, roughly half as wide as the photograph itself, about 2.2% of the whole sheet and about 24% of the cluster, opaque and hard-edged against the haze. No other colour. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the fog took the garden\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 44,
+      "series": "seasons",
+      "role": "interior",
+      "season": "winter",
+      "file": "img/44-winter-it-looked-like-frost.jpeg",
+      "plate": "plates/44-winter-it-looked-like-frost.jpeg",
+      "title": "it looked like frost",
+      "title_zh": "看上去像霜",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "translucent geometric overlay",
+        "typography": "diagonal scattered words",
+        "accent": "cobalt blue",
+        "texture": "letterpress ink bleed",
+        "mood": "memory"
+      },
+      "accent_hex": "#1746C4",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p05.jpeg",
+      "note": "满树白花冷成了霜。一块钴蓝的三角斜压过去——不是天空，是玻璃，是隔着看的那层东西。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 86% of the sheet is plain empty paper, nearly all of it above. One small visual cluster occupies roughly 11% of the canvas, floating low and to the left, not touching any edge.\n\nThe cluster is the attached photograph reproduced as a small print — keep its subject exactly as given: a white blossoming tree standing in a field under a violet-grey haze, the whole scene so pale and cold it reads as frost rather than as flowers. Printed grey and low contrast with letterpress ink bleed softening its edges.\n\nA few small serif words run diagonally up and away from the print, scattered and unaligned. The single high-chroma element is a translucent geometric overlay: a solid, fully saturated cobalt-blue printed triangle laid across the upper half of the photograph so the tree shows faintly through it, opaque enough to stay vividly blue where it sits on bare paper, about 1.8% of the whole sheet and about 22% of the cluster. Nothing else on the sheet is coloured. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"it looked like frost\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 45,
+      "series": "seasons",
+      "role": "interior",
+      "season": "winter",
+      "file": "img/45-winter-someone-stood-very-still.jpeg",
+      "plate": "plates/45-winter-someone-stood-very-still.jpeg",
+      "title": "someone stood very still",
+      "title_zh": "有人站着一动不动",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "flat silhouette",
+        "typography": "almost textless, only a tiny caption",
+        "accent": "orange",
+        "texture": "scan noise and paper fibers",
+        "mood": "solitude"
+      },
+      "accent_hex": "#F06A11",
+      "source": "series — Seasons 内页；底图是用户提供的照片（已裁掉水印条），按 gc-minimal-zine-poster-v0-1 Standard Mode 重做；出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上",
+      "photo": "assets/seasons/photos/p12.jpeg",
+      "note": "人被抽成一个模糊的灰影，脚下什么都没有。右边平齐头部放一枚橙色方块——是另一个人，还是他在等的东西，不说。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of aged oat-white paper, a warm pale ivory that is slightly warmer and duller than pure white, with fine cotton-rag fibre and only the faintest even mottling. The paper tone is the same from corner to corner: no yellow patches, no brown staining, no dark edges, no tea-coloured wash, no cream-to-white gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 89% of the sheet is plain empty paper — this is the emptiest sheet in the set. One very small visual cluster occupies roughly 8% of the canvas, placed low and slightly right of centre, with an enormous field of blank paper above it.\n\nThe cluster is one standing human figure taken from the attached photograph and reduced to a small flat grey silhouette on bare paper — the blurred outline of a person facing forward, arms down, alone. No grass, no hills, no sky, no ground line: the figure stands on nothing. Printed with visible scan noise and paper fibre so the outline is soft and uncertain at its edges.\n\nOne tiny serif caption sits directly beneath the figure, small and quiet. The single high-chroma element is a solid, fully saturated orange printed square on the paper immediately to the right of the figure, at the same height as its head, opaque and clean, about as tall as the figure's head and shoulders together, about 2.2% of the whole sheet and about 24% of the cluster. It is the only colour on the sheet. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"someone stood very still\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, many colours, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper."
+    },
+    {
+      "id": 46,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "Paris",
+      "file": "img/46-paris-everyone-faced-the-window.jpeg",
+      "title": "everyone faced the window",
+      "title_zh": "所有人都朝着窗坐",
+      "recipe": {
+        "layout": "irregular-cutout",
+        "anchor": "torn-paper clipping",
+        "typography": "short phrase pressed against image edge",
+        "accent": "hot magenta-pink",
+        "texture": "risograph grain",
+        "mood": "night"
+      },
+      "accent_hex": "#E8357F",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j01-paris-sunset.jpeg",
+      "note": "整间餐厅都不说话地朝一个方向坐着。黑得只剩剪影，颜色全留给窗外那几道云。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright cotton printmaking paper: a clean, light, almost-white stock, only a whisper warmer than pure white, with fine visible paper fibre and a faint even tooth. The paper tone is the same from corner to corner: no ivory, no cream, no oat, no yellowing, no brown staining, no dark edges, no tea-coloured wash, no light-to-dark gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 82% of the sheet is plain empty paper. One tall narrow visual cluster occupies roughly 14% of the canvas, standing a little left of centre and a little above the middle, well away from every edge.\n\nThe cluster is a tall window-shaped clipping torn from the attached photograph, about one quarter of the sheet wide and two and a half times as tall as it is wide, with one ragged torn edge. Inside it: the flat black silhouette of a restaurant interior — a standing figure at the right, the backs of two seated diners along the bottom edge, a laid table — cut against a dusk sky, with the thin needle of the Eiffel Tower rising in the middle distance as a dark hairline. Keep the black silhouettes low and narrow so that the upper two thirds of the clipping is open sky; the silhouetted interior is solid black with no detail, and only the sky carries colour.\n\nOne short line of small serif type sits directly under the clipping, pressed against its lower edge and slightly misregistered. The sky inside the window is the single high-chroma element: hot magenta-pink risograph ink laid in flat horizontal cloud bands, filling the whole upper part of the window around the black silhouettes. The pink area by itself — not the clipping, the pink alone — covers about 4% of the whole sheet and about 45% of the cluster, so it stays the largest single element in the composition. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. Only this one hue is saturated anywhere on the sheet; every other mark is paper tone, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\neveryone faced the window\nPARIS  19:48\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, travel-brochure or postcard styling."
+    },
+    {
+      "id": 47,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "Paris",
+      "file": "img/47-rhone-the-river-was-already-blue.jpeg",
+      "title": "the river was already blue",
+      "title_zh": "那条河当时就已经是蓝的",
+      "recipe": {
+        "layout": "dual-panel",
+        "anchor": "old printed illustration",
+        "typography": "archive microtext with date/weather",
+        "accent": "cobalt blue",
+        "texture": "halftone degradation",
+        "mood": "memory"
+      },
+      "accent_hex": "#1D4FA8",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j02-rhone-starry-night.jpeg",
+      "note": "站在画前才发现，梵高看见的蓝不是夜色，是他先把河认定成蓝的。旁边那张说明牌被留成一块空灰卡。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright cotton printmaking paper: a clean, light, almost-white stock, only a whisper warmer than pure white, with fine visible paper fibre and a faint even tooth. The paper tone is the same from corner to corner: no ivory, no cream, no oat, no yellowing, no brown staining, no dark edges, no tea-coloured wash, no light-to-dark gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 80% of the sheet is plain empty paper. Two small adjacent panels with a narrow paper gap between them occupy together roughly 16% of the canvas, sitting in the upper-middle of the sheet, well away from every edge.\n\nThe left and larger panel is a coarse halftone reproduction of the attached painting — a night river under stars, two small figures on the near bank, gaslight reflections running down the water as vertical streaks — printed as if plated from a worn museum catalogue, with visible halftone rosettes and slight ink misregistration. The right panel is a narrow blank grey card the height of the painting, like the wall label beside it, carrying only microtext.\n\nThree lines of very small typewriter microtext sit on the narrow right panel, grey and quiet. The painting panel itself is the high-chroma element: its night sky and river are printed in fully saturated cobalt-blue ink while the banks, the figures and the frame stay grey, so the blue reads as about 6% of the whole sheet and about 40% of the two-panel cluster. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. Only this one hue is saturated anywhere on the sheet; every other mark is paper tone, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the river was already blue\" / \"ARLES 1888\" / \"OIL ON CANVAS\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, travel-brochure or postcard styling."
+    },
+    {
+      "id": 48,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "Barcelona",
+      "file": "img/48-sagrada-the-light-arrived-coloured.jpeg",
+      "title": "the light arrived coloured",
+      "title_zh": "光是带着颜色进来的",
+      "recipe": {
+        "layout": "single-specimen",
+        "anchor": "abstract texture window",
+        "typography": "fragmented floating letters",
+        "accent": "amber-orange",
+        "texture": "letterpress ink bleed",
+        "mood": "solitude"
+      },
+      "accent_hex": "#F07A14",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j03-sagrada-glass.jpeg",
+      "note": "教堂里最亮的东西不是灯，是光穿过玻璃时被染上的那层橙。所以整张纸只留下那一扇窗，其余全部拿掉。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not off-white, not eggshell, not bone, not oatmeal, not vanilla, not antique, not aged, not warm-toned. Absolutely no yellow cast, no beige cast, no tea stain, no age toning, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 84% of the sheet is plain empty white paper. One single upright specimen occupies roughly 13% of the canvas, placed in the lower-middle of the sheet, well away from every edge.\n\nThe specimen is one pointed gothic arch lifted out of the attached photograph and printed alone on the paper like a pressed sample: a slender lancet window with a small circular rose above it, its stone tracery drawn as thin dark lines with letterpress ink bleed. There is no cathedral around it, no columns, no interior, no shadow — only the one window shape sitting on bare white paper.\n\nThe phrase is set once in small serif type to the right of the arch, running down the sheet as a single vertical column, one letter under the next, loosely and unevenly spaced as if the line had come apart in the press. Every letter in that column belongs to the phrase and the phrase is complete; no loose letter from any other word appears anywhere on the sheet. Every pane inside the arch and inside the rose is filled with fully saturated amber-orange glass — an irregular mosaic of flat bright orange shards, a clean vivid orange like fresh spot ink rather than mustard or ochre, divided by the thin dark leading, about 5% of the whole sheet and about 40% of the cluster. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. The orange must stay strictly inside the window panes and must not spill, glow or tint the surrounding paper. Only this one hue is saturated anywhere on the sheet; every other mark is neutral paper white, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, spelled exactly as given:\nthe light arrived coloured\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, ivory or cream paper, warm paper cast, travel-brochure or postcard styling."
+    },
+    {
+      "id": 49,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "London",
+      "file": "img/49-london-one-red-thing-on-the-water.jpeg",
+      "title": "one red thing on the water",
+      "title_zh": "水面上只有一处红",
+      "recipe": {
+        "layout": "dot-orbit",
+        "anchor": "flat silhouette",
+        "typography": "archive microtext with date/weather",
+        "accent": "tomato red",
+        "texture": "xerox softness",
+        "mood": "afternoon"
+      },
+      "accent_hex": "#E0342A",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j04-round-pond.jpeg",
+      "note": "一池子鸭子里，唯一不动、也唯一有颜色的是那个浮标。于是这张把水抽掉了，剩下的编队自然就绕着它。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright cotton printmaking paper: a clean, light, almost-white stock, only a whisper warmer than pure white, with fine visible paper fibre and a faint even tooth. The paper tone is the same from corner to corner: no ivory, no cream, no oat, no yellowing, no brown staining, no dark edges, no tea-coloured wash, no light-to-dark gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 85% of the sheet is plain empty paper. One wide low cluster occupies roughly 12% of the canvas, sitting in the lower third of the sheet, well away from every edge.\n\nThe cluster is a scattering of about fourteen tiny flat grey waterfowl silhouettes — ducks and one long-necked goose, seen from the side, each no bigger than a grain of rice — drifting across bare paper as if the pond itself had been left unprinted. Their edges are soft and slightly broken, like a third-generation photocopy. No water, no ripples, no bank, no trees, no sky.\n\nOne line of small typewriter microtext runs along the lower edge of the scattering, grey and archival. Among the grey birds sits one fully saturated tomato-red disc: a clean flat circle about one quarter of the sheet width across, far larger than any bird, the marker buoy swollen to the size of a printer's colour patch — the birds orbit it at uneven distances. The red disc covers about 3% of the whole sheet and is the largest single element on the paper. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. Only this one hue is saturated anywhere on the sheet; every other mark is paper tone, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\none red thing on the water\nSEP 21  16:05  clear\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, travel-brochure or postcard styling."
+    },
+    {
+      "id": 50,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "Cappadocia",
+      "file": "img/50-cappadocia-everyone-got-up-in-the-dark.jpeg",
+      "title": "everyone got up in the dark",
+      "title_zh": "所有人都摸黑起床",
+      "recipe": {
+        "layout": "upper-right-block",
+        "anchor": "solid color block",
+        "typography": "diagonal scattered words",
+        "accent": "violet",
+        "texture": "risograph grain",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#7A46C6",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j05-cappadocia-balloons.jpeg",
+      "note": "为了看它们，整座山谷的人四点就起来了。真正的主角其实是那块紫色的天，气球只是从里面被冲出来的几个小口子。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright cotton printmaking paper: a clean, light, almost-white stock, only a whisper warmer than pure white, with fine visible paper fibre and a faint even tooth. The paper tone is the same from corner to corner: no ivory, no cream, no oat, no yellowing, no brown staining, no dark edges, no tea-coloured wash, no light-to-dark gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 80% of the sheet is plain empty paper. One rectangular block with a few small marks escaping it occupies roughly 18% of the canvas, placed in the upper-right of the sheet, well away from every edge.\n\nThe block is a wide, short rectangle of flat printed sky — a slab of pre-dawn cloud reduced to three or four soft horizontal bands with risograph grain, no ground, no rocks, no horizon line. Six or seven tiny teardrop balloon silhouettes are punched out of it in grey and in bare paper, and two more have drifted clear of the block altogether and float alone on the empty sheet above and to its left.\n\nThree or four short words scatter diagonally down the empty left side of the sheet in small serif type, loosely spaced, following the drift of the escaped balloons. The sky block itself is the high-chroma element: fully saturated violet risograph ink, opaque and flatly printed, about 6% of the whole sheet and about 35% of the cluster. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. Only this one hue is saturated anywhere on the sheet; every other mark is paper tone, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"everyone got up in the dark\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, travel-brochure or postcard styling."
+    },
+    {
+      "id": 51,
+      "series": "colorful-journey",
+      "role": "single",
+      "place": "Erciyes",
+      "file": "img/51-erciyes-the-mountain-stayed-the-same-size.jpeg",
+      "title": "the mountain stayed the same size",
+      "title_zh": "那座山一直没有变大",
+      "recipe": {
+        "layout": "lower-left-float",
+        "anchor": "tiny faded photo",
+        "typography": "low-contrast gray ghost text",
+        "accent": "cyan",
+        "texture": "scan noise and paper fibers",
+        "mood": "quiet"
+      },
+      "accent_hex": "#1FA5D6",
+      "source": "series — Colorful Journey；底图是用户提供的旅行照片，按 gc-minimal-zine-poster-v0-1 Standard Mode 重做。两处按用户要求的偏离：纸底改为近白（实测 250-253，R−B 4-6，对照 Seasons 的 229/221/203），色块目标放宽到 3-6%（skill 原上限 2.5%）。未经 paper_normalize 重印，六张各自出白。",
+      "photo": "assets/journey/photos/j06-erciyes-road.jpeg",
+      "note": "开了一个小时，山看上去还是那么大——这是所有长途公路共有的错觉。所以照片被放得很小，压在左下角，让上面那片空白替你开这段路。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright cotton printmaking paper: a clean, light, almost-white stock, only a whisper warmer than pure white, with fine visible paper fibre and a faint even tooth. The paper tone is the same from corner to corner: no ivory, no cream, no oat, no yellowing, no brown staining, no dark edges, no tea-coloured wash, no light-to-dark gradient. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. About 86% of the sheet is plain empty paper. One small horizontal photograph occupies roughly 11% of the canvas, floating low and left on the sheet with a large empty area above it, well away from every edge.\n\nThe photograph is a small landscape crop about one third of the sheet wide: an empty asphalt road running straight away from the viewer with its dashed white centre line, a line of dark conifers along the left verge, and a broad snow-covered mountain filling the far end. Road, trees and mountain are all printed grey and slightly grainy, with visible scan noise, as if photographed through a windscreen and reprinted small.\n\nOne line of pale grey ghost type sits high in the empty upper area, far from the photograph, printed faint enough to read as a watermark. Above the mountain, inside the photograph, the sky is the single high-chroma element: a solid slab of fully saturated cyan printed flat from the snowline to the top edge of the crop, about 4.5% of the whole sheet and about 40% of the cluster. The chromatic ink is printed at full saturation and fully opaque: dense, clean-edged spot colour that sits on top of the paper rather than tinting it. Do not wash it out, do not make it translucent, do not let the paper fibre show through the colour, do not desaturate it while adding grain. Only this one hue is saturated anywhere on the sheet; every other mark is paper tone, grey, or black. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is: \"the mountain stayed the same size\". Each string is printed once and once only, spelled exactly as given, with no repeated word. Do not render any other word. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light, low to medium contrast, no hard shadow, no depth of field, no 3D. Avoid: full-bleed photograph, the reference photo filling the sheet, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, clean digital white background, cinematic lighting, neon, cyberpunk, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, more than one saturated hue, long clean paragraphs of text, stock-photo realism, yellowed or tea-stained paper, travel-brochure or postcard styling."
+    },
+    {
+      "id": 52,
+      "series": "plates",
+      "role": "single",
+      "place": "Paris",
+      "file": "img/52-paris-everyone-faced-the-window.jpeg",
+      "title": "everyone faced the window",
+      "title_zh": "所有人都朝着窗坐",
+      "recipe": {
+        "layout": "tall 3:4 plate, upper left",
+        "anchor": "three-ink riso, warm gradient sky",
+        "typography": "one line in the lower margin",
+        "accent": "hot magenta-pink into orange",
+        "texture": "risograph grain and slight misregistration",
+        "mood": "dusk"
+      },
+      "accent_hex": "#E8357F",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j01-paris-sunset.jpeg",
+      "note": "第一版把这张拍成了一块粉色天空加一片黑影。真正的照片里有窗格、有远近、有一桌人各自的姿势——现在整张印出来，粉色仍然只有一个色系，但它托着的是画面，不是替代画面。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One rectangular photographic plate is printed on the sheet, a tall 3:4 portrait rectangle about 62% of the sheet width, placed in the upper left with a wide clean paper margin on all four sides — a broad empty band down the right edge and a deep empty area across the bottom third. About 55% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full, as a photograph: the interior of a high restaurant at sunset, shot from inside looking out. A tall grid of window mullions divides the view into panes. Against the twilight sky beyond, the Eiffel Tower stands slightly right of the plate's centre, its lattice structure clearly readable. Between the camera and the glass, the near-black silhouettes of diners: a figure standing at the right, the backs and shoulders of seated people along the bottom, a dining table with a pale cloth, a potted plant at the right edge. Depth is preserved — the silhouettes are close and large, the tower is far and small. Keep the window's grid geometry and the individual shapes of the people; do not merge them into one black mass.\n\nThe plate is printed as a three-ink risograph: dense black for the interior silhouettes, and for the sky a hot magenta-pink laid over a band of saturated orange low at the horizon, the two blending into one continuous warm sunset gradient. That warm gradient is the only chromatic family on the sheet. Fine riso grain and a hairline misregistration where the pink and orange plates meet. The phrase is set once in small serif type in the empty paper below the plate, left-aligned to the plate's left edge; the short slug sits on its own line beneath it. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\neveryone faced the window\nPARIS  19:48\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    },
+    {
+      "id": 53,
+      "series": "plates",
+      "role": "single",
+      "place": "Paris",
+      "file": "img/53-rhone-the-river-was-already-blue.jpeg",
+      "title": "the river was already blue",
+      "title_zh": "那条河当时就已经是蓝的",
+      "recipe": {
+        "layout": "landscape 5:4 plate, centred high",
+        "anchor": "full-chroma plate, painting in its frame",
+        "typography": "museum label line, lower left",
+        "accent": "deep cobalt blue",
+        "texture": "halftone dot and paper fibre",
+        "mood": "museum quiet"
+      },
+      "accent_hex": "#1D4FA8",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j02-rhone-starry-night.jpeg",
+      "note": "这张照片拍的不是画，是「在美术馆里站到这幅画面前」——所以金框和墙都留着。第一版当成「旧印刷插图」处理，把厚涂笔触磨平了，那恰恰是这张照片唯一无法替代的东西。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One landscape photographic plate is printed on the sheet, a 5:4 rectangle about 72% of the sheet width, centred left to right and sitting a little above the middle, with a wide clean paper margin all round and a large empty area filling the lower third. About 58% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full: Van Gogh's painting Starry Night Over the Rhone as it actually hangs, photographed straight on. The carved ornamental frame is included and is part of the image — a heavy moulded frame with a worn gilded surface, its carved relief catching the gallery light. Inside it the painting itself: the night river, the row of gas lamps along the far bank with their long yellow reflections dragged down into the water, the constellation overhead, two small figures at the near shore. The impasto is visible — thick directional brushstrokes standing up off the canvas, the ridged paint texture readable across the sky and water. Around the frame, a narrow band of the plain neutral gallery wall.\n\nThe plate is printed at full chroma with a deep cobalt blue governing everything — the river, the sky, the shadowed wall. The lamp reflections and the frame's gilding stay warm gold, which is the subject's own second colour and must not be removed or neutralised; no third hue appears anywhere. A soft halftone dot is visible in the blue, and the paper fibre shows through the gallery wall. Three short lines of small grey serif type sit in the empty paper below the plate, left-aligned under the frame's left edge, set like a wall label. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\nthe river was already blue\nARLES 1888\nOIL ON CANVAS\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    },
+    {
+      "id": 54,
+      "series": "plates",
+      "role": "single",
+      "place": "Barcelona",
+      "file": "img/54-sagrada-the-light-arrived-coloured.jpeg",
+      "title": "the light arrived coloured",
+      "title_zh": "光是带着颜色进来的",
+      "recipe": {
+        "layout": "narrow 1:2.6 vertical strip, centred",
+        "anchor": "full-chroma plate, light on stone",
+        "typography": "one line at the foot of the sheet",
+        "accent": "amber orange",
+        "texture": "letterpress ink bleed in the shadows",
+        "mood": "solitude"
+      },
+      "accent_hex": "#F07A14",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j03-sagrada-glass.jpeg",
+      "note": "这张返工三次仍然是错的：我给出的是一扇「通用哥特窗」，而照片真正的主角是彩光打在石扶手上的那道反光。现在照片整个印出来，橙色是从玻璃洒到石头上的，不是填在窗格里的。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One narrow vertical photographic plate is printed on the sheet, a tall strip roughly one part wide to two and a half parts high, about 40% of the sheet width, centred left to right and centred top to bottom, with very wide clean paper margins down both sides. About 60% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full: the interior of the Sagrada Familia seen from a low angle. In the foreground, the smooth curved stone banister of a staircase sweeps up from the bottom of the plate and away to the right — its polished surface is the single most important thing in the picture, because the coloured light from the windows is lying across it as a soft warm glow. Behind and above it, tall narrow stained-glass windows rise the full height of the plate, their panes glowing. A structural column edges the right side in deep shadow. Keep the low viewpoint, the curve of the banister, and the light falling onto the stone — this is a photograph of light on a surface, not a picture of a window.\n\nThe plate is printed at full chroma with amber orange governing: the glass burns orange and gold, and the same orange lies as a reflected wash along the curved banister. Everything the light does not reach — the columns, the vault, the shadowed stone — goes to deep neutral near-black with a soft letterpress ink bleed at its edges. No second hue. One line of small serif type sits in the empty paper near the foot of the sheet, centred under the strip. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\nthe light arrived coloured\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    },
+    {
+      "id": 55,
+      "series": "plates",
+      "role": "single",
+      "place": "London",
+      "file": "img/55-serpentine-one-red-thing-on-the-water.jpeg",
+      "title": "one red thing on the water",
+      "title_zh": "水面上只有一处红",
+      "recipe": {
+        "layout": "wide 16:6 letterbox band, mid sheet",
+        "anchor": "neutral grey halftone, one region left in colour",
+        "typography": "one line above the band, right-aligned",
+        "accent": "tomato red",
+        "texture": "newspaper halftone, coarse dot",
+        "mood": "overcast afternoon"
+      },
+      "accent_hex": "#E0342A",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j04-round-pond.jpeg",
+      "note": "第一版删掉了整条天际线，只留几只灰鸭子和一个被我放大到荒谬的红圆盘。红点本来就该是小的——它之所以扎眼，是因为周围有一整片灰色的世界，而不是因为它大。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One wide horizontal photographic plate is printed on the sheet, a letterbox band roughly 16 parts wide to 6 parts high, about 78% of the sheet width, centred left to right and crossing the sheet a little below the middle, with wide clean paper above and below. About 62% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full: a wide view across a city park lake under flat overcast light. Along the bottom of the band, open water with fine wind ripples and a dozen ducks and geese swimming, each bird a distinct small shape. Across the middle, the paved far shore with a few walking figures. Behind them a dense line of full summer trees, and rising above the trees on the right, a tall gothic church spire against a pale hazy sky, with slimmer towers further left. Floating in the water near the centre, a single small red marker buoy. Keep the whole depth of the view — ripples, birds, people, treeline, spire, sky.\n\nThe plate is printed as a coarse neutral grey newspaper halftone — water, birds, trees, spire and sky all in warm-neutral grey ink with a visible dot screen, no colour anywhere in them. The single exception is the marker buoy, which is printed in fully saturated tomato red at the same size it occupies in the photograph: small, but the only chromatic mark on the entire sheet, so the eye finds it immediately against all that grey. One line of small typewriter type sits in the empty paper above the band, right-aligned to the band's right edge; the slug sits on its own line beneath it. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\none red thing on the water\nSEP 21  16:05  clear\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    },
+    {
+      "id": 56,
+      "series": "plates",
+      "role": "single",
+      "place": "Cappadocia",
+      "file": "img/56-cappadocia-everyone-got-up-in-the-dark.jpeg",
+      "title": "everyone got up in the dark",
+      "title_zh": "所有人都摸黑起床",
+      "recipe": {
+        "layout": "landscape 3:2 plate, upper two thirds",
+        "anchor": "full-chroma plate, dawn gradient",
+        "typography": "one line low left in the empty third",
+        "accent": "violet into magenta",
+        "texture": "risograph grain in the sky",
+        "mood": "slight surrealism"
+      },
+      "accent_hex": "#7A46C6",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j05-cappadocia-balloons.jpeg",
+      "note": "第一版是一个紫色实心方块。这张照片的全部意义在于「多」——几十只球、从近到远各种大小，那个密度才是「所有人都摸黑起床」的理由。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One landscape photographic plate is printed on the sheet, a 3:2 rectangle about 80% of the sheet width, centred left to right and sitting in the upper portion of the sheet with a clean paper margin above and to both sides, and a deep empty paper area filling the lower third. About 52% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full: a high wide view over the Cappadocia valleys at dawn. The lower part of the plate is dark rugged terrain — eroded ridges and shadowed valleys, with several hot air balloons floating low among them, close enough to read their envelopes. Above and beyond, the sky is filled with dozens more balloons at every distance, scattered from large ones near the camera to specks near the horizon; the sheer number of them is the subject. On the far horizon a low snow-flecked mountain range. Keep the count high and the sizes varied so the depth of the sky is readable.\n\nThe plate is printed at full chroma with violet governing: the sky runs from deep lavender-violet at the top down into saturated magenta near the horizon, one continuous cool gradient. The terrain is charcoal near-black. The lit balloon burners glow warm orange as small points — the subject's own second colour, kept small and not extended anywhere else. Visible risograph grain through the sky. One line of small sans type sits low in the empty paper beneath the plate, aligned to the plate's left edge; the second line sits under it. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\neveryone got up in the dark\n05:12  BEFORE SUNRISE\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    },
+    {
+      "id": 57,
+      "series": "plates",
+      "role": "single",
+      "place": "Erciyes",
+      "file": "img/57-erciyes-the-mountain-stayed-the-same-size.jpeg",
+      "title": "the mountain stayed the same size",
+      "title_zh": "那座山一直没有变大",
+      "recipe": {
+        "layout": "4:5 plate, lower centre",
+        "anchor": "two-ink riso duotone, cyan and black",
+        "typography": "one line high in the empty upper area",
+        "accent": "cyan blue",
+        "texture": "clean riso, slight plate offset",
+        "mood": "quiet"
+      },
+      "accent_hex": "#1FA5D6",
+      "source": "series — Plates；底图与 Colorful Journey 同源，六张用户旅行照片，同样的六句话。区别在策略：照片按「图版」整幅印上纸，不再拆成 anchor。这是对 gc-minimal-zine-poster-v0-1 的一次明确越界——skill 的 Image Anchor 词表八项全部是减法，本组放弃了 Color Engine「主色占版面 0.8%-2.5%」那条数值规则，图版实测占版面 27.9%-41.4%。依据是 skill 自己写的 Prefer a colored ... image panel，以及禁止项只禁 full-bleed（出血），不禁尺寸。保留的部分：近白纸、平扫视角、极简排字、印刷瑕疵、单一主色。",
+      "photo": "assets/journey/photos/j06-erciyes-road.jpeg",
+      "note": "唯一一张用严格双色套印的：青 + 黑，雪是纸本身的白。照片里那块红色警示牌被这个印法丢掉了——这是印刷决定，不是失误。",
+      "prompt": "Tall vertical 3:5 paper poster. The whole sheet is one piece of bright NEUTRAL WHITE cotton printmaking paper — the same cool bright white as a fresh sheet of copier paper, RGB roughly 252,252,250, with fine visible paper fibre and a faint even tooth. The paper must read as WHITE, not ivory, not cream, not eggshell, not oatmeal, not antique, not aged, not warm-toned. No yellow cast, no beige cast, no tea stain, no brown edges, no vignette, no light-to-dark gradient; the paper tone is identical from corner to corner and its red, green and blue values are within two or three points of each other. Flat orthographic scanner-bed view, no border, no mockup, no paper shadow, no curl. One photographic plate is printed on the sheet, a 4:5 portrait rectangle about 70% of the sheet width, centred left to right and sitting low, with a clean paper margin below and to both sides, and a tall empty paper area above it. About 56% of the sheet is bare white paper.\n\nThe plate reproduces the attached photograph in full: a two-lane asphalt road running straight away from the camera toward a huge snow-covered volcanic mountain. The road fills the bottom of the plate with its dashed white centre line receding in strong linear perspective. A row of pine trees and tall streetlights lines the left verge. In the middle distance, low village houses with pitched roofs and a slim flagpole. Filling the whole upper half of the plate, Mount Erciyes itself — broad, snow-covered, its crevices and ridges clearly modelled — under an open sky with a band of low cloud along its base. Keep the perspective of the road and the mass of the peak; the point of the picture is that the mountain is enormous and the road never gets closer to it.\n\nThe plate is printed as a strict two-ink risograph duotone: one saturated cyan-blue ink and one black ink on the bare white paper, nothing else. Cyan carries the sky and the blue shadows in the snow; black carries the road, the pines and the buildings; the snow and the cloud are the unprinted white paper showing through. A slight offset between the two plates leaves a thin cyan fringe along one side of the dark shapes. No other hue appears. One line of small grey sans type sits high in the empty paper above the plate, aligned to the plate's left edge. This is a printed photographic plate, not a drawing and not a flat graphic: the photograph's real shapes, depth, texture and detail all survive the printing. The chromatic ink is laid at full saturation and fully opaque — dense, clean-edged colour that sits on the paper rather than tinting it. Do not wash it out, do not make it translucent, do not desaturate it while adding grain. Outside the plate the sheet is bare white paper; the only other marks are small grey or black type. STRICT TEXT WHITELIST. The only text allowed anywhere on the sheet is the following, printed once and once only, each line set on its own separate line of the poster, spelled exactly as given:\nthe mountain stayed the same size\nPrint those words and nothing else. Do not print quotation marks, slashes, brackets, bullets, dashes or any other separator around them, and do not run two of the lines together into one line. Do not render any other word or any loose single letter. Do not print any word from these instructions. No caption, no signature, no username, no social-media handle, no watermark, no date stamp, no page number, no logo.\n\nFlat scanned-paper feeling, matte and absorbent, diffuse even light on the paper itself, no hard shadow cast by the sheet, no 3D, no mockup. Avoid: the image bleeding to any edge of the sheet, a full-bleed scene, the plate touching the paper's border, commercial headline hierarchy, product advertisement layout, logo, CTA, glossy mockup, cute cartoon, anime, fashion editorial drama, dense scrapbook collage, long clean paragraphs of text, travel-brochure or postcard styling, yellowed or tea-stained paper, ivory or cream paper, warm paper cast. Do NOT reduce the photograph to a flat silhouette, a line drawing, a cartoon, a vector illustration or a single solid block of colour — the photographic image must be fully present and legible."
+    }
+  ],
+  "series": {
+    "singles": {
+      "label": "Singles",
+      "label_zh": "单张",
+      "count": 27
+    },
+    "seasons": {
+      "label": "Seasons",
+      "label_zh": "四季",
+      "count": 18,
+      "note": "一册四章，十八张。四张封面（28–31）由 tools/seasons_compose.py 用同一张几何表合成，除照片和色块外逐像素相同；十四张内页（32–45）回到 skill 的 Variation Engine，每张换一套配方，出图后由 tools/paper_normalize.py 把墨重印到封面同一张纸上，十八张纸白点统一在 229/221/203。"
+    },
+    "colorful-journey": {
+      "label": "Colorful Journey",
+      "label_zh": "旅程留色",
+      "count": 6,
+      "note": "六张，一张照片一张纸。相对 skill 默认值有两处刻意偏离，都是按用户要求做的：一是纸底换成近白棉纸，六张纸白点落在 250-253、R−B 4-6；二是保留下来的彩色面积放大，实测占版面 1.4%-7.9%，其中四张高于 skill 0.8-2.5% 的上限。色块仍然是单一色相、满饱和、不透明，六张各用一个色，缩到 64px 宽仍然一眼可见。"
+    },
+    "plates": {
+      "label": "Plates",
+      "label_zh": "整版照片",
+      "count": 6,
+      "note": "六张，与 46-51 一一对应、同照片同句子，但把照片当图版印。六张纸白点实测 249-253，R−B +1 到 +4，全部中性白。每张一个色相：52 品红、53 钴蓝、54 琥珀、55 番茄红、56 紫、57 青。55 是唯一的灰底单点色（红浮标按真实大小印，不放大）；57 是严格双色版，实测 100% 有彩像素落在青色相 180-210° 区间，雪就是未印的纸。刻意放弃了 skill 的 0.8%-2.5% 色块上限，这是策略差异，不是踩线，文档里如实记录。"
+    }
+  },
+  "chapters": [
+    {
+      "season": "spring",
+      "label": "Spring",
+      "label_zh": "春",
+      "cover": 28,
+      "pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "season": "summer",
+      "label": "Summer",
+      "label_zh": "夏",
+      "cover": 29,
+      "pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "season": "autumn",
+      "label": "Autumn",
+      "label_zh": "秋",
+      "cover": 30,
+      "pages": [
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "season": "winter",
+      "label": "Winter",
+      "label_zh": "冬",
+      "cover": 31,
+      "pages": [
+        43,
+        44,
+        45
+      ]
+    }
+  ]
+}

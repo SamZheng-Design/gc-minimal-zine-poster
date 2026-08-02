@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GC Minimal Zine Poster — Album</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23e8e4da'/%3E%3Crect x='13' y='12' width='6' height='9' fill='%232438a8'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --paper:#e8e4da;
+    --paper-2:#f1ede4;
+    --ink:#2b2926;
+    --ink-soft:#6f6a62;
+    --ink-faint:#a49d92;
+    --rule:#cdc6b8;
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Songti SC","Noto Serif SC",Georgia,serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--serif);
+    -webkit-font-smoothing:antialiased;
+    /* paper fibre noise */
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(0,0,0,.014) 0 1px, transparent 1px),
+      radial-gradient(circle at 70% 60%, rgba(0,0,0,.012) 0 1px, transparent 1px),
+      radial-gradient(circle at 45% 85%, rgba(0,0,0,.010) 0 1px, transparent 1px);
+    background-size:7px 7px, 11px 11px, 13px 13px;
+  }
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px 120px}
+
+  /* ---------- cover ---------- */
+  header.cover{padding:88px 0 40px;border-bottom:1px solid var(--rule)}
+  .kicker{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-faint)}
+  h1{font-size:clamp(30px,5.2vw,58px);line-height:1.04;margin:20px 0 0;font-weight:400;letter-spacing:-.015em}
+  h1 em{font-style:italic;color:var(--ink-soft)}
+  .lede{margin:22px 0 0;max-width:46em;font-size:15.5px;line-height:1.75;color:var(--ink-soft)}
+  .meta{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px 26px;font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;color:var(--ink-faint);text-transform:uppercase}
+  .meta b{color:var(--ink-soft);font-weight:400}
+
+  /* ---------- filters ---------- */
+  .filters{display:flex;flex-wrap:wrap;gap:8px;padding:26px 0 6px;align-items:center}
+  .flabel{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
+  .chip{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+    padding:5px 11px;border:1px solid var(--rule);background:transparent;
+    color:var(--ink-soft);cursor:pointer;border-radius:999px;transition:.14s;
+  }
+  .chip:hover{border-color:var(--ink-soft);color:var(--ink)}
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper-2)}
+  /* the edition switch is not a filter: it changes which file is shown */
+  .chip.toggle{border-style:dashed}
+  .chip.toggle[aria-pressed="true"]{border-style:solid}
+  .chip .sw{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:middle}
+  .count{margin-left:auto;font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);letter-spacing:.1em}
+
+  /* ---------- contact sheet ---------- */
+  .sheet{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));
+    gap:44px 32px;padding:40px 0 0;
+  }
+  .card{cursor:pointer;background:none;border:0;padding:0;text-align:left;font:inherit;color:inherit;display:block}
+  .frame{
+    position:relative;aspect-ratio:3/5;overflow:hidden;background:var(--paper-2);
+    box-shadow:0 1px 0 rgba(0,0,0,.06), 0 12px 26px -18px rgba(0,0,0,.4);
+    transition:transform .22s cubic-bezier(.2,.7,.3,1), box-shadow .22s;
+  }
+  .card:hover .frame{transform:translateY(-4px);box-shadow:0 1px 0 rgba(0,0,0,.06), 0 22px 40px -20px rgba(0,0,0,.45)}
+  .frame img{width:100%;height:100%;object-fit:cover;display:block}
+  .cap{padding:13px 2px 0}
+  .cap .n{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);letter-spacing:.14em}
+  .cap .t{font-size:15px;line-height:1.35;margin-top:5px}
+  .cap .r{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);margin-top:6px;letter-spacing:.04em;display:flex;align-items:center;gap:6px}
+  .cap .r .sw{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+  .cap .n .badge{
+    display:inline-block;margin-left:6px;padding:1px 5px;border:1px solid var(--rule);
+    border-radius:2px;letter-spacing:.1em;color:var(--ink-soft);
+  }
+
+  /* ---------- chaptered reading view (a series read as an album) ---------- */
+  .sheet.chaptered{display:block;padding:0}
+  .sheet.chaptered .grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));
+    gap:44px 32px;padding:26px 0 0;
+  }
+  .chapter{
+    display:flex;align-items:baseline;gap:14px;margin:64px 0 0;
+    padding-bottom:11px;border-bottom:1px solid var(--ink-soft);
+  }
+  .sheet.chaptered > .chapter:first-child{margin-top:40px}
+  .chapter .cn{
+    font-family:var(--mono);font-size:12px;letter-spacing:.34em;text-transform:uppercase;
+  }
+  .chapter .cz{font-size:19px;letter-spacing:.16em}
+  .chapter .cc{
+    margin-left:auto;font-family:var(--mono);font-size:10px;
+    color:var(--ink-faint);letter-spacing:.1em;
+  }
+  .card.is-cover .frame{box-shadow:0 1px 0 rgba(0,0,0,.08), 0 16px 34px -18px rgba(0,0,0,.5)}
+  .card.is-cover .cap .n{color:var(--ink-soft)}
+
+  /* ---------- detail overlay ---------- */
+  .veil{
+    position:fixed;inset:0;z-index:50;display:none;
+    background:rgba(28,26,24,.9);backdrop-filter:blur(3px);
+    overflow-y:auto;padding:38px 24px 80px;
+  }
+  .veil.on{display:block}
+  .detail{
+    max-width:1080px;margin:0 auto;background:var(--paper);
+    display:grid;grid-template-columns:minmax(260px,1fr) 1.15fr;gap:0;
+    box-shadow:0 40px 90px -30px rgba(0,0,0,.7);
+  }
+  .detail .plate{padding:34px;display:flex;align-items:flex-start;justify-content:center;background:#ddd8cd}
+  .detail .plate img{width:100%;max-width:420px;height:auto;display:block;box-shadow:0 14px 34px -18px rgba(0,0,0,.55)}
+  .detail .info{padding:38px 40px 44px;min-width:0}
+  .detail h2{font-size:30px;font-weight:400;margin:14px 0 0;line-height:1.15;letter-spacing:-.01em}
+  .detail .zh{font-size:14px;color:var(--ink-soft);margin-top:8px}
+  .note{margin:22px 0 0;font-size:14.5px;line-height:1.8;color:var(--ink-soft);border-left:2px solid var(--rule);padding-left:16px}
+  .note.series-note{margin-top:12px;font-size:13px;color:var(--ink-faint);border-left-style:dashed}
+  .src{margin-top:18px;font-family:var(--mono);font-size:10.5px;line-height:1.7;color:var(--ink-faint);letter-spacing:.03em}
+  .recipe{margin:26px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+  .rc{font-family:var(--mono);font-size:9.5px;letter-spacing:.07em;padding:4px 9px;border:1px solid var(--rule);color:var(--ink-soft);border-radius:3px}
+  .rc.accent{border-color:transparent;color:var(--paper-2)}
+  h3.sec{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint);margin:32px 0 10px;font-weight:400;display:flex;align-items:center;gap:12px}
+  h3.sec:after{content:"";flex:1;height:1px;background:var(--rule)}
+  pre.prompt{
+    margin:0;font-family:var(--mono);font-size:11px;line-height:1.75;color:var(--ink-soft);
+    white-space:pre-wrap;word-break:break-word;background:var(--paper-2);
+    border:1px solid var(--rule);padding:16px;max-height:290px;overflow-y:auto;
+  }
+  .acts{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+  .btn{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:8px 14px;border:1px solid var(--rule);background:transparent;color:var(--ink-soft);cursor:pointer;border-radius:2px;text-decoration:none}
+  .btn:hover{border-color:var(--ink);color:var(--ink)}
+  .btn.ghost{border-style:dashed;color:var(--ink-faint)}
+  .nav{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:16px 22px;z-index:60;pointer-events:none}
+  .nav button{pointer-events:auto;font-family:var(--mono);font-size:11px;letter-spacing:.14em;background:rgba(232,228,218,.92);border:0;color:var(--ink);padding:9px 15px;cursor:pointer;border-radius:2px}
+  .nav button:hover{background:#fff}
+  .nav .grp{display:flex;gap:8px}
+
+  footer{margin-top:70px;padding-top:26px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:10px;color:var(--ink-faint);letter-spacing:.09em;line-height:2}
+  footer a{color:var(--ink-soft)}
+
+  .err{padding:40px;border:1px dashed var(--rule);font-family:var(--mono);font-size:12px;line-height:1.9;color:var(--ink-soft);margin-top:40px}
+
+  @media (max-width:820px){
+    .detail{grid-template-columns:1fr}
+    .detail .plate{padding:24px}
+    .detail .info{padding:28px 24px 36px}
+  }
+
+  /* ---------- print: one poster per page ---------- */
+  @media print{
+    @page{size:A4 portrait;margin:14mm}
+    body{background:#fff;background-image:none}
+    header.cover,.filters,.veil,.nav,footer,.cap .r{display:none!important}
+    .wrap{max-width:none;padding:0}
+    .sheet{display:block;padding:0}
+    .sheet.chaptered .grid{display:block;padding:0}
+    .chapter{break-before:page;page-break-before:always;margin:0 0 6mm;border-bottom-color:#000}
+    .card{break-after:page;page-break-after:always;display:block;margin:0}
+    .frame{box-shadow:none;aspect-ratio:auto;height:auto}
+    .frame img{height:auto;object-fit:contain;max-height:245mm;margin:0 auto}
+    .cap{text-align:center;padding-top:8px}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="cover">
+    <div class="kicker">gc-minimal-zine-poster-v0-1 · standard mode</div>
+    <h1>安静的纸<br><em>An Album of Quiet Paper</em></h1>
+    <p class="lede">
+      每一张都从一张照片或一个念头出发，只抽出<strong>一个</strong>可成像的隐喻——不复制画面，
+      而是把它压成一张留白 80% 以上的竖版纸海报：一个小小的视觉簇、一行打字机档案微文字、
+      以及全画面唯一一处高饱和油墨。
+    </p>
+    <div class="meta">
+      <span>Sheets <b id="m-count">—</b></span>
+      <span>Format <b>3:5 vertical · 1200×2150</b></span>
+      <span>Negative space <b>70–90%</b></span>
+      <span>Accent <b>one hue per sheet</b></span>
+    </div>
+  </header>
+
+  <div class="filters" id="filters"></div>
+  <div class="sheet" id="sheet"></div>
+  <div id="err"></div>
+
+  <footer>
+    GC Minimal Zine Poster — Album · 由 <a href="../SKILL.md">SKILL.md</a> 编排，
+    元数据见 <a href="../posters/index.json">posters/index.json</a><br>
+    键盘：<b>← →</b> 翻页 · <b>Esc</b> 关闭 · 浏览器打印可导出每页一张的 PDF
+  </footer>
+</div>
+
+<div class="veil" id="veil" role="dialog" aria-modal="true">
+  <div class="nav">
+    <div class="grp"><button id="prev">← 上一张</button><button id="next">下一张 →</button></div>
+    <div class="grp"><button id="close">关闭 ✕</button></div>
+  </div>
+  <div class="detail" id="detail"></div>
+</div>
+
+<script src="album.js"></script>
+</body>
+</html>
