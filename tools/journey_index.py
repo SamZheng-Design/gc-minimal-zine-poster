@@ -51,7 +51,7 @@ def filename(page) -> str:
 
 def main() -> None:
     data = json.loads(INDEX.read_text(encoding="utf-8"))
-    posters = [p for p in data["posters"] if p["id"] <= 45]
+    posters = [p for p in data["posters"] if p["id"] <= 45 or p["id"] > 51]
 
     for page in PAGES:
         entry = {

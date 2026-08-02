@@ -154,3 +154,5 @@ git clone https://github.com/LiamGvchi/gc-minimal-zine-poster.git \  ~/.codex/sk
 MIT。详见 `LICENSE`。
 
 `46–51` 是第二个系列 **Colorful Journey（旅程留色）**：六张旅行照片，同一个 skill，但纸底刻意做白（实测 250–253，R−B 4–6），保留的彩色面积刻意放大（占版面 1.4%–7.9%，其中四张高于 skill 2.5% 的上限）。两处偏离都是按要求做的，实测数据和返工记录见 `posters/README.md`。
+
+`52–57` 是第三个系列 **Plates（整版照片）**，与 `46–51` 一一对应：同样的六张照片、六句话、六个色相，但照片按整幅图版印出来，不再拆成 anchor。原因是结构性的 —— skill 的 `Image Anchor` 词表只有八项，且**八项全是减法**，词表里根本没有"把这张照片好好印出来"这个选项。所以本系列直接放弃了 Color Engine"主色占版面 0.8%–2.5%"那条规则，图版实测占版面 27.9%–41.4%。依据是 skill 自己写的 *Prefer a colored … image panel*，以及禁止项只禁**出血**、不禁尺寸。其余全部保留：近白纸、平扫、极简排字、印刷瑕疵、每张单一色相。
